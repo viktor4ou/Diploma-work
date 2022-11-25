@@ -1,20 +1,7 @@
 body{
-    padding: 0;
-    background-repeat: no-repeat;
+    background-color: hotpink;
     
 }
-.container{
-    width: auto;
-    height: 110px;
-    background-color: black;
-    position: relative;
-    right: 10px;
-    bottom: 10px;
-    opacity: 0.8;
-    text-align: left;
-}
-#hedder_container_image{
-    height: 110px;
-}
+
 
 
