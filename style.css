@@ -5,7 +5,7 @@ body{
     background-size: cover;
 }
 /* Custom nav-expand*/
-  @media (min-width: 1500px){
+@media (min-width: 1500px){
     .navbar-expand-custom {
         flex-direction: row;
         flex-wrap: nowrap;
