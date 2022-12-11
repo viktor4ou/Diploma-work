@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>VSG Computers </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/img/icon.jpg" type="icon">
 </head>
@@ -15,140 +18,82 @@
 
        <!--Главното име на сайта в Navbar--> 
             <a class="navbar-brand justify-content-center" href="index.html">
-                <h2 class="font-weight-bold mx-2 text-md-center text-sm-center">VSG Computers</h2>
+                <h2 class="fw-bold mx-2 text-md-center text-sm-center">VSG Computers</h2>
             </a>
         <!-- Search меню начало-->
-        <div class="container-xxl " style="width: 500px;">
-            <div class="row justify-content-center  ">
+        <div class="container-lg " style="width: 500px;">
+            <div class="row justify-content-center ">
                 <div class="col-12">
-                    <form for="Search" class="form-label" style="min-width: 200px;">
-                        <div class="input-group my-3">
-                            <input type="search" class="form-control " placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
-                            <button type="button" class="btn btn-primary  ">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
-                                </svg>
+                    <form for="Search" class="form-label" style="min-width: 400px;">
+                        <div class="input-group">
+                            <input type="search" class="form-control rounded-pill border-5" placeholder="Search" aria-describedby="button-addon2">
+                            <button type="button-addon2" class="btn btn-primary rounded-pill ">
+                              <i class="bi bi-search"></i>
+                            </button>  
                           </div>
                     </form>
                 </div>
             </div>
         </div>
         <!--Бутона който се показва при по-малките екари/телефони-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> 
+      </button>
         <!--Navbar Content-->
-        <div class="collapse navbar-collapse " id="navbarNav">
-            <div class="navbar-nav  shadow-lg rounded mx-1">
-              <div class="nav-item my-3 mx-4">
-                <a href="Periferia.html" class="nav-link  text-light h4 ps-2 justify-content-center" id="navbarDropdownMenuLink">Компютри</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav shadow">
+              <div class="nav-item my-3 mx-4 " id="navbarNav">
+                <a href="Periferia.html" class="nav-link text-light  ps-2 justify-content-center" id="navbarNav"><h4>Компютри</h4></a>
               </div>
                 <!-- Dropdown за Компоненти начало-->
-                <li class="nav-item dropdown my-3 mx-2 "> 
-                    <a href="#" class="nav-link dropdown-toggle text-light h4 ps-2" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Компоненти</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a href="#asd" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cpu" viewBox="0 0 16 16">
-                          <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
-                        </svg> Процесори</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gpu-card" viewBox="0 0 16 16">
-                            <path d="M4 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm7.5-1.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/>
-                            <path d="M0 1.5A.5.5 0 0 1 .5 1h1a.5.5 0 0 1 .5.5V4h13.5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5H2v2.5a.5.5 0 0 1-1 0V2H.5a.5.5 0 0 1-.5-.5Zm5.5 4a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM9 8a2.5 2.5 0 1 0 5 0 2.5 2.5 0 0 0-5 0Z"/>
-                            <path d="M3 12.5h3.5v1a.5.5 0 0 1-.5.5H3.5a.5.5 0 0 1-.5-.5v-1Zm4 1v-1h4v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5Z"/>
-                          </svg> Видео карти</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-memory" viewBox="0 0 16 16">
-                            <path d="M1 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.586a1 1 0 0 0 .707-.293l.353-.353a.5.5 0 0 1 .708 0l.353.353a1 1 0 0 0 .707.293H15a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H1Zm.5 1h3a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5Zm5 0h3a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5Zm4.5.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-4ZM2 10v2H1v-2h1Zm2 0v2H3v-2h1Zm2 0v2H5v-2h1Zm3 0v2H8v-2h1Zm2 0v2h-1v-2h1Zm2 0v2h-1v-2h1Zm2 0v2h-1v-2h1Z"/>
-                          </svg> RAM памети</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-motherboard" viewBox="0 0 16 16">
-                            <path d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3Zm0 1h3v3H5V4Zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2Z"/>
-                            <path d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11Z"/>
-                          </svg> Дънни платки</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stop-btn" viewBox="0 0 16 16">
-                            <path d="M6.5 5A1.5 1.5 0 0 0 5 6.5v3A1.5 1.5 0 0 0 6.5 11h3A1.5 1.5 0 0 0 11 9.5v-3A1.5 1.5 0 0 0 9.5 5h-3z"/>
-                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
-                          </svg> Захранвания</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-device-ssd" viewBox="0 0 16 16">
-                            <path d="M4.75 4a.75.75 0 0 0-.75.75v3.5c0 .414.336.75.75.75h6.5a.75.75 0 0 0 .75-.75v-3.5a.75.75 0 0 0-.75-.75h-6.5ZM5 8V5h6v3H5Zm0-5.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm7 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0ZM4.5 11a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm7 0a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"/>
-                            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2Zm11 12V2a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1v-2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2a1 1 0 0 0 1-1Zm-7.25 1v-2H5v2h.75Zm1.75 0v-2h-.75v2h.75Zm1.75 0v-2H8.5v2h.75ZM11 13h-.75v2H11v-2Z"/>
-                          </svg> SSD дискове </a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-device-hdd" viewBox="0 0 16 16">
-                            <path d="M12 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm-7.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1ZM5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0ZM8 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/>
-                            <path d="M12 7a4 4 0 0 1-3.937 4c-.537.813-1.02 1.515-1.181 1.677a1.102 1.102 0 0 1-1.56-1.559c.1-.098.396-.314.795-.588A4 4 0 0 1 8 3a4 4 0 0 1 4 4Zm-1 0a3 3 0 1 0-3.891 2.865c.667-.44 1.396-.91 1.955-1.268.224-.144.483.115.34.34l-.62.96A3.001 3.001 0 0 0 11 7Z"/>
-                            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2Zm2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H4Z"/>
-                          </svg> HDD дискове</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pc" viewBox="0 0 16 16">
-                            <path d="M5 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H5Zm.5 14a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1Zm2 0a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1ZM5 1.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5ZM5.5 3h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1Z"/>
-                          </svg>Кутии</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-postage-fill" viewBox="0 0 16 16">
-                            <path d="M4.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-7Z"/>
-                            <path d="M3.5 1a1 1 0 0 0 1-1h1a1 1 0 0 0 2 0h1a1 1 0 0 0 2 0h1a1 1 0 1 0 2 0H15v1a1 1 0 1 0 0 2v1a1 1 0 1 0 0 2v1a1 1 0 1 0 0 2v1a1 1 0 1 0 0 2v1a1 1 0 1 0 0 2v1h-1.5a1 1 0 1 0-2 0h-1a1 1 0 1 0-2 0h-1a1 1 0 1 0-2 0h-1a1 1 0 1 0-2 0H1v-1a1 1 0 1 0 0-2v-1a1 1 0 1 0 0-2V9a1 1 0 1 0 0-2V6a1 1 0 0 0 0-2V3a1 1 0 0 0 0-2V0h1.5a1 1 0 0 0 1 1ZM3 3v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1Z"/>
-                          </svg> Охладители</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fan" viewBox="0 0 16 16">
-                            <path d="M10 3c0 1.313-.304 2.508-.8 3.4a1.991 1.991 0 0 0-1.484-.38c-.28-.982-.91-2.04-1.838-2.969a8.368 8.368 0 0 0-.491-.454A5.976 5.976 0 0 1 8 2c.691 0 1.355.117 1.973.332.018.219.027.442.027.668Zm0 5c0 .073-.004.146-.012.217 1.018-.019 2.2-.353 3.331-1.006a8.39 8.39 0 0 0 .57-.361 6.004 6.004 0 0 0-2.53-3.823 9.02 9.02 0 0 1-.145.64c-.34 1.269-.944 2.346-1.656 3.079.277.343.442.78.442 1.254Zm-.137.728a2.007 2.007 0 0 1-1.07 1.109c.525.87 1.405 1.725 2.535 2.377.2.116.402.222.605.317a5.986 5.986 0 0 0 2.053-4.111c-.208.073-.421.14-.641.199-1.264.339-2.493.356-3.482.11ZM8 10c-.45 0-.866-.149-1.2-.4-.494.89-.796 2.082-.796 3.391 0 .23.01.457.027.678A5.99 5.99 0 0 0 8 14c.94 0 1.83-.216 2.623-.602a8.359 8.359 0 0 1-.497-.458c-.925-.926-1.555-1.981-1.836-2.96-.094.013-.191.02-.29.02ZM6 8c0-.08.005-.16.014-.239-1.02.017-2.205.351-3.34 1.007a8.366 8.366 0 0 0-.568.359 6.003 6.003 0 0 0 2.525 3.839 8.37 8.37 0 0 1 .148-.653c.34-1.267.94-2.342 1.65-3.075A1.988 1.988 0 0 1 6 8Zm-3.347-.632c1.267-.34 2.498-.355 3.488-.107.196-.494.583-.89 1.07-1.1-.524-.874-1.406-1.733-2.541-2.388a8.363 8.363 0 0 0-.594-.312 5.987 5.987 0 0 0-2.06 4.106c.206-.074.418-.14.637-.199ZM8 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/>
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14Zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16Z"/>
-                        </svg> Вентилатори</a> 
-                    </div>
+                <li class="nav-item dropdown my-3 mx-2 "id="navbarNav" > 
+                  <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <h4>Компоненти</h4>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-cpu"></i> Процесори</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-gpu-card"></i> Видео карти</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-memory"></i> RAM памери</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-motherboard"></i> Дънни платки</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-stop-btn"></i> Захранвания</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-device-ssd"></i> SSD дискове</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-device-hdd"></i> HDD дискове</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-pc"></i> Кутии</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-postage-fill"></i> Охладители</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-fan"></i> Вентилатори</a></li>
+                  </ul>
                 </li>
                 <!-- Dropdown за Периферия начало-->
-                <li class="nav-item dropdown my-3 mx-2 " > 
-                    <a href="#" class="nav-link dropdown-toggle text-light h4 ps-2" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Периферия</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-keyboard" viewBox="0 0 16 16">
-                            <path d="M14 5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h12zM2 4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2z"/>
-                            <path d="M13 10.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm0-2a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm-5 0A.25.25 0 0 1 8.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 8 8.75v-.5zm2 0a.25.25 0 0 1 .25-.25h1.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-1.5a.25.25 0 0 1-.25-.25v-.5zm1 2a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm-5-2A.25.25 0 0 1 6.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 6 8.75v-.5zm-2 0A.25.25 0 0 1 4.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 4 8.75v-.5zm-2 0A.25.25 0 0 1 2.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 2 8.75v-.5zm11-2a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm-2 0a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm-2 0A.25.25 0 0 1 9.25 6h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 9 6.75v-.5zm-2 0A.25.25 0 0 1 7.25 6h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 7 6.75v-.5zm-2 0A.25.25 0 0 1 5.25 6h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 5 6.75v-.5zm-3 0A.25.25 0 0 1 2.25 6h1.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-1.5A.25.25 0 0 1 2 6.75v-.5zm0 4a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm2 0a.25.25 0 0 1 .25-.25h5.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-5.5a.25.25 0 0 1-.25-.25v-.5z"/>
-                          </svg> Клавиатури</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mouse3" viewBox="0 0 16 16">
-                            <path d="M7 0c-.593 0-1.104.157-1.527.463-.418.302-.717.726-.93 1.208C4.123 2.619 4 3.879 4 5.187v.504L3.382 6A2.5 2.5 0 0 0 2 8.236v2.576C2 13.659 4.22 16 7 16h2c2.78 0 5-2.342 5-5.188V7.51a.71.71 0 0 0 0-.02V5.186c0-1.13-.272-2.044-.748-2.772-.474-.726-1.13-1.235-1.849-1.59C9.981.123 8.26 0 7 0zm2.5 6.099V1.232c.51.11 1.008.267 1.46.49.596.293 1.099.694 1.455 1.24.355.543.585 1.262.585 2.225v1.69l-3.5-.778zm-1-5.025v4.803L5 5.099c.006-1.242.134-2.293.457-3.024.162-.366.363-.63.602-.801C6.292 1.105 6.593 1 7 1c.468 0 .98.018 1.5.074zM5 6.124 13 7.9v2.912C13 13.145 11.19 15 9 15H7c-2.19 0-4-1.855-4-4.188V8.236a1.5 1.5 0 0 1 .83-1.342l.187-.093c.01.265.024.58.047.92.062.938.19 2.12.462 2.937a.5.5 0 1 0 .948-.316c-.227-.683-.35-1.75-.413-2.688a29.17 29.17 0 0 1-.06-1.528v-.002z"/>
-                          </svg> Мишки</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
-                            <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
-                          </svg> Слушалки</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
-                            <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
-                            <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"/>
-                          </svg> Микрофони</a> 
-                          <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16">
-                              <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/>
-                            </svg> Камери</a> 
-                            <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-controller" viewBox="0 0 16 16">
-                                <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z"/>
-                                <path d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z"/>
-                              </svg> Контролери</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-display" viewBox="0 0 16 16">
-                            <path d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75c.167-.333.25-.833.25-1.5H2s-2 0-2-2V4zm1.398-.855a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145z"/>
-                          </svg> Монитори </a> 
-                    </div>
+                <li class="nav-item dropdown my-3 mx-2 "id="navbarNav" > 
+                  <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <h4>Периферия</h4>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-keyboard"></i> Клавиатури</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-mouse3"></i> Мишки</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-headset"></i> Слушалки</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-mic"></i> Микрофони</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-camera"></i> Камери</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-controller"></i> Контолери</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-display"></i> Монитори</a></li>
+                  </ul>
                 </li>
                 <!-- Dropdown за Аксесоари и Софтуери начало-->
-                <li class="nav-item dropdown my-3 mx-2"> 
-                    <a href="#" class="nav-link dropdown-toggle text-light h4 ps-2" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Аксесоари </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eyeglasses" viewBox="0 0 16 16">
-                            <path d="M4 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm2.625.547a3 3 0 0 0-5.584.953H.5a.5.5 0 0 0 0 1h.541A3 3 0 0 0 7 8a1 1 0 0 1 2 0 3 3 0 0 0 5.959.5h.541a.5.5 0 0 0 0-1h-.541a3 3 0 0 0-5.584-.953A1.993 1.993 0 0 0 8 6c-.532 0-1.016.208-1.375.547zM14 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
-                          </svg> Очила</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-microsoft" viewBox="0 0 16 16">
-                            <path d="M7.462 0H0v7.19h7.462V0zM16 0H8.538v7.19H16V0zM7.462 8.211H0V16h7.462V8.211zm8.538 0H8.538V16H16V8.211z"/>
-                          </svg> Операционни системи</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-virus" viewBox="0 0 16 16">
-                            <path d="M8 0a1 1 0 0 1 1 1v1.402c0 .511.677.693.933.25l.7-1.214a1 1 0 0 1 1.733 1l-.701 1.214c-.256.443.24.939.683.683l1.214-.701a1 1 0 0 1 1 1.732l-1.214.701c-.443.256-.262.933.25.933H15a1 1 0 1 1 0 2h-1.402c-.512 0-.693.677-.25.933l1.214.701a1 1 0 1 1-1 1.732l-1.214-.7c-.443-.257-.939.24-.683.682l.701 1.214a1 1 0 1 1-1.732 1l-.701-1.214c-.256-.443-.933-.262-.933.25V15a1 1 0 1 1-2 0v-1.402c0-.512-.677-.693-.933-.25l-.701 1.214a1 1 0 0 1-1.732-1l.7-1.214c.257-.443-.24-.939-.682-.683l-1.214.701a1 1 0 1 1-1-1.732l1.214-.701c.443-.256.261-.933-.25-.933H1a1 1 0 1 1 0-2h1.402c.511 0 .693-.677.25-.933l-1.214-.701a1 1 0 1 1 1-1.732l1.214.701c.443.256.939-.24.683-.683l-.701-1.214a1 1 0 0 1 1.732-1l.701 1.214c.256.443.933.261.933-.25V1a1 1 0 0 1 1-1Zm2 5a1 1 0 1 0-2 0 1 1 0 0 0 2 0ZM6 7a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm1 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm5-3a1 1 0 1 0-2 0 1 1 0 0 0 2 0Z"/>
-                          </svg> Антивирусни</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-text" viewBox="0 0 16 16">
-                            <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-                            <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
-                            <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
-                          </svg> Офис програми</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-usb-drive" viewBox="0 0 16 16">
-                            <path d="M6 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4H6v-4ZM7 1v1h1V1H7Zm2 0v1h1V1H9ZM6 5a1 1 0 0 0-1 1v8.5A1.5 1.5 0 0 0 6.5 16h4a1.5 1.5 0 0 0 1.5-1.5V6a1 1 0 0 0-1-1H6Zm0 1h5v8.5a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V6Z"/>
-                          </svg>
-                          Флашки</a> 
-                        <a href="#" class="dropdown-item h5 border-bottom border-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-device-hdd" viewBox="0 0 16 16">
-                            <path d="M12 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm-7.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1ZM5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0ZM8 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/>
-                            <path d="M12 7a4 4 0 0 1-3.937 4c-.537.813-1.02 1.515-1.181 1.677a1.102 1.102 0 0 1-1.56-1.559c.1-.098.396-.314.795-.588A4 4 0 0 1 8 3a4 4 0 0 1 4 4Zm-1 0a3 3 0 1 0-3.891 2.865c.667-.44 1.396-.91 1.955-1.268.224-.144.483.115.34.34l-.62.96A3.001 3.001 0 0 0 11 7Z"/>
-                            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2Zm2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H4Z"/>
-                          </svg> Преносими HHD</a> 
-                    </div>
+                <li class="nav-item dropdown my-3 mx-2"id="navbarNav"> 
+                  <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <h4>Аксесоари</h4>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-eyeglasses"></i> Очила</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-windows"></i> Операционни системи</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-virus"></i> Антивирусни</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-journal-text"></i> Офис програми</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-usb-drive"></i> Флашки</a></li>
+                    <li><a class="dropdown-item h5 border-bottom border-primary" href="#"><i class="bi bi-device-hdd"></i> Преносими HDD</a></li>
+                  </ul>
                 </li>
                 <!-- Количка-->
-                <li class="navbar-nav active text-light my-3 mx-5">
+                <li class="navbar-nav active text-light my-3 mx-5"id="navbarNav">
                 <button class="btn btn-outline-light border-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
@@ -170,13 +115,13 @@
 <!-- Прикючва снимката на компютъра/евентуален Carosel-->
 
 <!-- Започва препоръчани продукти-->  
-<section id="Promo" class="bg-light mt-2">
+<section id="Promo" class="bg-light mt-2">  
 
     <div>
-      <h1 class="display-3 d-flex justify-content-center font-weight-bold border-bottom border-danger pb-2">Топ продукти</h1>
+      <h1 class="display-3 d-flex justify-content-center fw-bold border-bottom border-danger pb-2"><b>Топ продукти</b></h1>
     </div>
 
-    <div class="container-md  mx-md-2 mx-lg-5 my-3" >
+    <div class="container-xll  mx-md-2 mx-lg-5 my-3" >
       <div class="row justify-content-center text-center mx-0" >
       
         <!--Първи Продукт Libra White (AMD)-->
@@ -186,7 +131,7 @@
             <div class="card-body">
               <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">G:RIGS > Libra White</a></h5>
             </div>
-            <ul class="list-group list-group-flush font-weight-bold">
+            <ul class="list-group list-group-flush fw-bold">
               <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cpu" viewBox="0 0 16 16">
                 <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
               </svg> AMD Ryzen 5 4500</li>
@@ -201,7 +146,7 @@
             </ul>
             <div class="card-body d-flex justify-content-center ">
               <span>
-                <h3 href="#" class="card-link text-danger font-weight-bold">1319лв.</h3>
+                <h3 href="#" class="card-link text-danger fw-bold">1319лв.</h3>
                   <div class="d-flex">
                     <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">1499лв.</p>
                 <span class="text-danger" style="text-decoration: none;">&nbsp(-12%)</span>
@@ -218,7 +163,7 @@
             <div class="card-body">
               <h5 class="card-title"><a href="#">G:RIGS > Twister Black </a></h5>
             </div>
-            <ul class="list-group list-group-flush font-weight-bold">
+            <ul class="list-group list-group-flush fw-bold">
               <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cpu" viewBox="0 0 16 16">
                 <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
               </svg> AMD Ryzen 5 5500</li>
@@ -233,7 +178,7 @@
             </ul>
             <div class="card-body d-flex justify-content-center ">
               <span>
-                <h3 href="#" class="card-link text-danger font-weight-bold">1999лв.</h3>
+                <h3 href="#" class="card-link text-danger fw-bold">1999лв.</h3>
                   <div class="d-flex">
                     <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">2160лв.</p>
                 <span class="text-danger" style="text-decoration: none;">&nbsp(-8%)</span>
@@ -250,7 +195,7 @@
             <div class="card-body">
               <h5 class="card-title"><a href="#">MSI GeForce RTX 4090</a></h5>
             </div>
-            <ul class="list-group list-group-flush font-weight-bold">
+            <ul class="list-group list-group-flush fw-bold">
               <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 17 17">
                 <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
               </svg> 24GB GDDR6X</li>
@@ -263,7 +208,7 @@
             </ul>
             <div class="card-body d-flex justify-content-center ">
               <span>
-                <h3 href="#" class="card-link text-danger font-weight-bold">4489лв.</h3>
+                <h3 href="#" class="card-link text-danger fw-bold">4489лв.</h3>
                   <div class="d-flex">
                     <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">5027лв.</p>
                 <span class="text-danger" style="text-decoration: none;">&nbsp(-12%)</span>
@@ -280,7 +225,7 @@
             <div class="card-body">
               <h5 class="card-title"><a href="#">GAINWARD RTX 4090</a></h5>
             </div>
-            <ul class="list-group list-group-flush font-weight-bold font-weight-bold">
+            <ul class="list-group list-group-flush fw-bold fw-bold">
               <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
                 <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
               </svg> 24GB GDDR6X</li>
@@ -293,7 +238,7 @@
             </ul>
             <div class="card-body d-flex justify-content-center ">
               <span>
-                <h3 href="#" class="card-link text-danger font-weight-bold">4039лв.</h3>
+                <h3 href="#" class="card-link text-danger fw-bold">4039лв.</h3>
                   <div class="d-flex">
                     <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">4321лв.</p>
                 <span class="text-danger" style="text-decoration: none;">&nbsp(-7%)</span>
@@ -310,7 +255,7 @@
             <div class="card-body">
               <h5 class="card-title"><a href="#">Samsung Odyssey G5</a></h5>
             </div>
-            <ul class="list-group list-group-flush font-weight-bold">
+            <ul class="list-group list-group-flush fw-bold">
               <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                 <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
               </svg> 32" VA</li>
@@ -323,7 +268,7 @@
             </ul>
             <div class="card-body d-flex justify-content-center ">
               <span>
-                <h3 href="#" class="card-link text-danger font-weight-bold">699лв.</h3>
+                <h3 href="#" class="card-link text-danger fw-bold">699лв.</h3>
                   <div class="d-flex">
                     <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">770лв.</p>
                 <span class="text-danger" style="text-decoration: none;">&nbsp(-10%)</span>
@@ -340,7 +285,7 @@
             <div class="card-body">
               <h5 class="card-title"><a href="#">Samsung Odyssey G3</a></h5>
             </div>
-            <ul class="list-group list-group-flush font-weight-bold">
+            <ul class="list-group list-group-flush fw-bold">
               <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                 <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
               </svg> 32" VA</li>
@@ -353,7 +298,7 @@
             </ul>
             <div class="card-body d-flex justify-content-center ">
               <span>
-                <h3 href="#" class="card-link text-danger font-weight-bold">669лв.</h3>
+                <h3 href="#" class="card-link text-danger fw-bold">669лв.</h3>
                   <div class="d-flex">
                     <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">789лв.</p>
                 <span class="text-danger" style="text-decoration: none;">&nbsp(-18%)</span>
@@ -370,7 +315,7 @@
             <div class="card-body">
               <h5 class="card-title"><a href="#">Razer BlackWidow V3</a></h5>
             </div>
-            <ul class="list-group list-group-flush font-weight-bold">
+            <ul class="list-group list-group-flush fw-bold">
               <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                 <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
               </svg> Razer Green суичове</li>
@@ -383,7 +328,7 @@
             </ul>
             <div class="card-body d-flex justify-content-center ">
               <span>
-                <h3 href="#" class="card-link text-danger font-weight-bold">239лв.</h3>
+                <h3 href="#" class="card-link text-danger fw-bold">239лв.</h3>
                   <div class="d-flex">
                     <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">293лв.</p>
                 <span class="text-danger" style="text-decoration: none;">&nbsp(-23%)</span>
@@ -400,7 +345,7 @@
             <div class="card-body">
               <h5 class="card-title"><a href="#">Logitech G Pro</a></h5>
             </div>
-            <ul class="list-group list-group-flush font-weight-bold">
+            <ul class="list-group list-group-flush fw-bold">
               <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                 <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
               </svg> GX Blue Clicky суичове</li>
@@ -413,7 +358,7 @@
             </ul>
             <div class="card-body d-flex justify-content-center ">
               <span>
-                <h3 href="#" class="card-link text-danger font-weight-bold">199лв.</h3>
+                <h3 href="#" class="card-link text-danger fw-bold">199лв.</h3>
                   <div class="d-flex">
                     <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">249лв.</p>
                 <span class="text-danger" style="text-decoration: none;">&nbsp(-20%)</span>
@@ -430,7 +375,7 @@
             <div class="card-body">
               <h5 class="card-title"><a href="#">AMD Ryzen 9 5950X</a></h5>
             </div>
-            <ul class="list-group list-group-flush font-weight-bold">
+            <ul class="list-group list-group-flush fw-bold">
               <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                 <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
               </svg> 16 ядра / 32 нишки</li>
@@ -443,7 +388,7 @@
             </ul>
             <div class="card-body d-flex justify-content-center ">
               <span>
-                <h3 href="#" class="card-link text-danger font-weight-bold">1169лв.</h3>
+                <h3 href="#" class="card-link text-danger fw-bold">1169лв.</h3>
                   <div class="d-flex">
                     <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">1369лв.</p>
                 <span class="text-danger" style="text-decoration: none;">&nbsp(-14%)</span>
@@ -460,7 +405,7 @@
             <div class="card-body">
               <h5 class="card-title"><a href="#">Intel Core i9-12900KS</a></h5>
             </div>
-            <ul class="list-group list-group-flush font-weight-bold">
+            <ul class="list-group list-group-flush fw-bold">
               <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                 <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
               </svg> 16 ядра / 24 нишки</li>
@@ -473,7 +418,7 @@
             </ul>
             <div class="card-body d-flex justify-content-center ">
               <span>
-                <h3 href="#" class="card-link text-danger font-weight-bold">1499лв.</h3>
+                <h3 href="#" class="card-link text-danger fw-bold">1499лв.</h3>
                   <div class="d-flex">
                     <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">1619лв.</p>
                 <span class="text-danger" style="text-decoration: none;">&nbsp(-8%)</span>
@@ -490,7 +435,7 @@
             <div class="card-body">
               <h5 class="card-title"><a href="#">Logitech G Pro Wireless</a></h5>
             </div>
-            <ul class="list-group list-group-flush font-weight-bold">
+            <ul class="list-group list-group-flush fw-bold">
               <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                 <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
               </svg> 25 600 DPI</li>
@@ -503,7 +448,7 @@
             </ul>
             <div class="card-body d-flex justify-content-center ">
               <span>
-                <h3 href="#" class="card-link text-danger font-weight-bold">199лв.</h3>
+                <h3 href="#" class="card-link text-danger fw-bold">199лв.</h3>
                   <div class="d-flex">
                     <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">259лв.</p>
                 <span class="text-danger" style="text-decoration: none;">&nbsp(-23%)</span>
@@ -520,7 +465,7 @@
             <div class="card-body">
               <h5 class="card-title"><a href="#">Logitech PRO X WIRELESS</a></h5>
             </div>
-            <ul class="list-group list-group-flush font-weight-bold">
+            <ul class="list-group list-group-flush fw-bold">
               <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                 <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
               </svg> PRO-G говорители</li>
@@ -533,7 +478,7 @@
             </ul>
             <div class="card-body d-flex justify-content-center ">
               <span>
-                <h3 href="#" class="card-link text-danger font-weight-bold">399лв.</h3>
+                <h3 href="#" class="card-link text-danger fw-bold">399лв.</h3>
                   <div class="d-flex">
                     <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">479лв.</p>
                 <span class="text-danger" style="text-decoration: none;">&nbsp(-20%)</span>
@@ -547,10 +492,8 @@
     </div>
   
 </section>
-<!-- Прикючва препоръчани продукти-->  
-<div class="shadow-lg p-3 mb-5 bg-white rounded">Larger shadow</div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Прикючва препоръчани продукти-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>
