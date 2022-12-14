@@ -1,4 +1,4 @@
-let myCart = document.getElementById("myCart") //span = "0";
+let myCart = document.getElementById("myCart") //span = "0";(badge)
 let myCartButton = document.getElementById("myCartButton") //
 let counter = 0;
 
@@ -11,4 +11,15 @@ myCart.textContent = `${counter += 1}`
     {
         myCart.textContent = "99+";
     }
+}
+
+let inputs = document.getElementById("search");
+let container = document.getElementById('container');
+
+inputs.addEventListener("input",clickedInput)
+
+function clickedInput (){
+container.innerHTML = `
+
+`;
 }
