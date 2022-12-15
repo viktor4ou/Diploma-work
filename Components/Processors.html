@@ -91,14 +91,8 @@
                 </ul>
               </li>
               <!-- Количка-->
-              <li class="navbar-nav active text-light my-3 mx-5 " id="navbarNav">
-                <button type="button" class="btn text-light position-relative " id="myCartButton">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                  </svg>
-                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="myCart">
-                    0
-                  </span>
+              <li class="navbar-nav active text-light my-3 mx-5 cart" id="navbarNav">
+                <button class="btn text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"><path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
                 </button>
               </li>
           </div>
@@ -220,9 +214,9 @@
                   <!--Първи Процесор Intel Core i3-12100F-->
                   <div class="col-12 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3 ">
                     <div class="card" style="width: auto; height: 570px;">
-                        <img src="/img/CPU/intel_core_i312100f.jpg" class="card-img-top" alt="CPU_1">
+                        <img src="/img/CPU/intel_core_i312100f.jpg"  class="card-img-top product-img" alt="CPU_1">
                       <div class="card-body">
-                        <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">Intel Core i3-12100F</a></h5>
+                        <h5 class="card-title text-truncate"  style="min-width: 100px;">Intel Core i3-12100F</h5>
                       </div>
                       <ul class="list-group list-group-flush fw-bold text-truncate" style="min-width: 100px;">
                         <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 4 ядра / 8 нишки</li>
@@ -231,10 +225,12 @@
                       </ul>
                       <div class="card-body d-flex justify-content-center ">
                         <span>
-                          <h3 href="#" class="card-link text-danger fw-bold">229лв.</h3>
+                          <h3 href="#" class="card-link text-danger fw-bold price" >229лв.</h3>
                             <div class="d-flex">
                                 <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">249лв.</p>
                                 <span class="text-danger" style="text-decoration: none;">&nbsp(-8%)</span>
+                                
+                                <button class="add-cart">Buy now</button>
                             </div>
                         </span>
                       </div>
@@ -738,6 +734,38 @@
     <i class="fw-bold text-light">© 2022-2023</i>
   </div>
  
+
+
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header ">
+    <h1 class="offcanvas-title fw-bold borer border-bottom border-primary" id="offcanvasWithBothOptionsLabel">Количка</h1>
+    <button type="button" class="btn-close text-reset border justify-content-end" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="cart-content">
+      <div class="cart-box d-grid justify-content-center mt-1">
+          <img src="/img/CPU/amd_ryzen_5_7600x.png" class="product-img p-1" width="100px" height="100px">
+
+          <div class="detail-box d-grid">
+            <div class="product-title h4 text-uppercase">i3-3033x</div>
+            <div class="price h4">24$</div>
+            <input type="number" value="1" class="cart-quantity border text-center">
+          </div>
+
+          <!--Премахване на продуктите-->
+          <i class="bi bi-trash cart-remove "></i>
+      </div>
+    </div>
+    <div class="total d-flex justify-content-end mt-1">
+      <div class="total-title h3">Общо</div>
+      <div class="total-price h3 me-1">&nbsp$20</div>
+    </div>
+    <button type="button" class="btn-buy btn btn-primary border-0">Поръчай</button>
+  </div>
+  
+</div>
+<p class="product-title">asd</p>
+<p class="price">87</p>
 <script src="../index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
