@@ -20,6 +20,7 @@ inputs.addEventListener("input",clickedInput)
 
 function clickedInput (){
 container.innerHTML = `
+    
 
 `;
 }
