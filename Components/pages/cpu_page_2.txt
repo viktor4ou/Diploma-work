@@ -1,0 +1,360 @@
+ <!--Първи Процесор AMD Ryzen 5 4500-->
+                  <div class="col-12 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto; height: 570px;">
+                        <img src="/img/CPU/amd_ryzen_5_4500_box.jpg"  class="card-img-top product-img" alt="CPU_1">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate"style="min-width: 100px;"><a href="#">AMD Ryzen 5 4500</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold text-truncate" style="min-width: 100px;">
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 6 ядра / 12 нишки</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.60 - 4.10GHz</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 11MB L3 кеш</li>
+                      </ul>
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold price" >179лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!--Втори Процесор Intel Core i3-10105F-->
+                  <div class="col-12 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto; height: 570px;">
+                        <img src="/img/CPU/intel_core_i310105f.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate"style="min-width: 100px;"><a href="#">Intel Core i3-10105F</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 4 ядра / 8 нишки</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.70 - 4.40GHz</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 6MB Smart Cache</li>
+                      </ul>
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">189лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!--Трети Процесор AMD Ryzen 3 3200G-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/amd_ryzen_3_3200g.png" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">AMD Ryzen 3 3200G</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 4-ядрен / 4-нишков</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.60 - 4.00GHz</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 4MB L3 кеш</li>
+                      </ul>
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">199лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!--Четвърти Процесор AMD Ryzen 5 5600-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/amd_ryzen_5_5600.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">AMD Ryzen 5 5500</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold fw-bold">
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 6 ядра / 12 нишки</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.60 - 4.20GHz</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 16MB L3 кеш</li>
+                      </ul>
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">225лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!--Пети Процесор Intel Core i3-10105-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/intel_core_i310105_box.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">Intel Core i3-10105</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 4 ядра / 8 нишки</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.70 - 4.40 GHz</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 6MB кеш</li>
+                      </ul>
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">259лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!--Шести Процесор Intel Core i7-12700KF-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/intel_core_i712700kf.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate"style="min-width: 100px;"><a href="#">Intel Core i7-12700KF</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 12 ядра / 20 нишки</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.60 - 5.00 GHz</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 25 MB Smart Cache</li>
+                      </ul>
+                      <div class="card-body d-flex justify-content-center">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">829лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!--Седми Процесор Intel Core i9-12900F-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card text-truncate" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/intel_core_i912900f_box.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate"style="min-width: 100px;"><a href="#">Intel Core i9-12900F</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 16 ядра / 24 нишки</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 2.40 - 5.10 GHz</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 30 MB Smart Cache</li>
+                      </ul>
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">1199лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!--Осми Процесор Intel Core i9-12900K-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/intel_core_i912900k.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate"style="min-width: 100px;"><a href="#">Intel Core i9-12900K</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 16 ядра / 24 нишки</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.20 - 5.20 GHz</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 30 MB Smart Cache</li>
+                      </ul>
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">1179лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!--Девети Процесор Intel Pentum Gold G6405-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/intel_pentum_gold_g6405.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate"style="min-width: 100px;"><a href="#">Intel Pentum Gold G6405</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 2 ядра / 4 нишки</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 4.10 GHz</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 4MB Smart Cache</li>
+                      </ul>
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">159лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!--Десети Процесор Intel Celeron G6900-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/intel_celeron_g6900.png" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">Intel Celeron G6900</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 2-ядрен</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.40 GHz</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 4 кеш</li>
+                      </ul>
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">125лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!--Единайсти Процесор Intel Celeron G5905-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/intel_celeron_g5905.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">Intel Celeron G5905</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 2 ядра</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.50GHz</li>
+                        <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 4MB кеш</li>
+                      </ul>
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">109лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!--Дванайсти Процесор Intel Core i7-11700K-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/intel_core_i711700k.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">Intel Core i7-11700K</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 8 ядра / 16 нишки</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.60 - 5.00 GHz</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 16 MB Smart Cache</li>
+                      </ul> 
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">719лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Процесор AMD Ryzen 3 4100-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/amd_ryzen_3_4100_box.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">AMD Ryzen 3 4100</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 4 ядра / 8 нишки</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.80 - 4.00 GHz</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 8MB L3 кеш</li>
+                      </ul> 
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">209лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Процесор Intel Core i7-10700K-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/intel_core_i710700k.png" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">Intel Core i7-10700K</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 8 ядра / 16 нишки</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.80 - 5.10 GHz</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 16MB кеш</li>
+                      </ul> 
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">789лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Процесор Intel Core i3-10100-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/intel_core_i310100.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">Intel Core i3-10100</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 4 ядрa / 8 нишки</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.60 - 4.30 GHz</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 6MB кеш</li>
+                      </ul> 
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">259лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Процесор Intel Core i5-12400F-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/intel_core_i512400f.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">Intel Core i5-12400F</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 6 ядра / 12 нишки</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 2.50 - 4.40 GHz</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 18MB кеш</li>
+                      </ul> 
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">389лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Процесор Intel Core i5-12500-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/intel_core_i512500.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">Intel Core i5-12500</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 6 ядра / 12 нишки</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.00 - 4.60 GHz</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 18MB кеш</li>
+                      </ul> 
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">519лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Процесор Intel Core i5-12600-->
+                  <div class="col-6 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 pb-3" id="product">
+                    <div class="card" style="width: auto;height: 570px;">
+                        <img src="/img/CPU/intel_core_i512600.jpg" class="card-img-top" alt="FirstPC">
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="#">Intel Core i5-12600</a></h5>
+                      </div>
+                      <ul class="list-group list-group-flush fw-bold">
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 6 ядра / 12 нишки</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.30 - 4.80 GHz</li>
+                        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 18MB кеш</li>
+                      </ul> 
+                      <div class="card-body d-flex justify-content-center ">
+                        <span>
+                          <h3 href="#" class="card-link text-danger fw-bold">575лв.</h3>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
