@@ -70,3 +70,21 @@ function updatetotal(){
 
 
 }
+
+$(document).ready(function() {
+    
+    $("#cpu_page_1").click(function() {
+        $("#cpu_content").load("pages/cpu_page_1.txt");
+        scrollTo(0,1)
+    });
+    $("#cpu_page_2").click(function() {
+        $("#cpu_content").load("pages/cpu_page_2.txt");
+        scrollTo(0,1)
+    });
+});
+
+
+
+
+
+
