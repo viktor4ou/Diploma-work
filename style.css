@@ -32,6 +32,10 @@ body{
         display: none;
     }
 }
+#product:hover{
+    padding: 10px;
+    transition: 0.3s;
+}
 .cart-box {
     grid-template-columns: 32% 50% 18%;
     gap: 1rem;
