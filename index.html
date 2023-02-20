@@ -11,22 +11,24 @@
 </head>
 <body >
  
-<!-- Започва Navbar -->
-<nav>
-    <div class="navbar border-bottom border-bottom-5 border-danger navbar-expand-custom navbar-dark bg-dark bg-gradient">
-
+  <!-- Започва Navbar-->
+  <nav>
+    <div class="navbar border-bottom border-bottom-5 border-danger navbar-expand-custom navbar-dark bg-dark bg-gradient clearfix">
+  
        <!--Главното име на сайта в Navbar--> 
-            <a class="navbar-brand justify-content-center" href="index.html">
-              <img src="/img/banner.png" class="  mx-2"></img>
+            <a class="navbar-brand justify-content-center" href="../../index.html">
+                <img src="/img/banner.png" class="  mx-2"></img>
             </a>
         <!-- Search меню начало-->
         <div class="container-lg " style="width: 500px;">
-            <div class="row justify-content-center ">
+            <div class="row justify-content-center  ">
                 <div class="col-12">
-                    <form for="Search" class="form-label rounded-pill" style="min-width: 320px; width: auto;">
-                      <div class="input-group rounded-pill ">
-                        <input type="search" class="form-control "placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <button class="input-group-text bg-primary" id="basic-addon2"><i class="bi bi-search text-light"></i></button>
+                    <form for="Search" class="form-label" style="min-width: 400px;">
+                      <div class="input-group ">
+                        <input type="search" class="form-control "placeholder="Search"  id="search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <button class="input-group-text bg-primary" ><i class="bi bi-search text-light"></i></button>
+                        <div id="container" class="text-light">
+                        </div>
                       </div>
                     </form>  
                 </div>
@@ -48,7 +50,7 @@
                     <h4>Компоненти</h4>
                   </button>
                   <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Components/Processors.html"><i class="bi bi-cpu"></i> Процесори</a></li>
+                    <li><a class=" dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Components/Processors.html"><i class="bi bi-cpu"></i> Процесори</a></li>
                     <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-gpu-card"></i> Видео карти</a></li>
                     <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-memory"></i> RAM памети</a></li>
                     <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-motherboard"></i> Дънни платки</a></li>
@@ -90,22 +92,21 @@
                   </ul>
                 </li>
                 <!-- Количка-->
-                <li class="navbar-nav active text-light my-3 mx-5 " id="navbarNav">
-                  <button type="button" class="btn text-light position-relative " id="myCartButton">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-                      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                    </svg>
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="myCart">
-                      0
-                    </span>
-                  </button>
+                <li class="navbar-nav active text-light my-3 mx-5 cart" id="navbarNav" >
+                  <a href="../../cart.html">
+                    <div class="cart">
+                      <button class="btn text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                      </svg></button>
+                      <div id="cartAmount" class="cartAmount">0</div>
+                    </div>
+                  </a>
                 </li>
             </div>
         </div>
     </div>
-</nav>    
-<!-- Приключва Navbar -->
-
+  </nav>
+  <!-- Приключва Navbar -->
 <!-- Започва снимката на компютъра/евентуален Carosel-->
 <section>
   <div class="container-md ">
@@ -504,8 +505,9 @@
 </div>
 
 <script src="index.js"></script>
+<script src="../cart.js"></script>
+<script src="../main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-
 </body>
 </html>
