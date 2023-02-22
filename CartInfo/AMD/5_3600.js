@@ -38,7 +38,7 @@ let generateShop = () => {
     <div class="container-fluid bg-light border ">
   <!--Заглавие-->
   <div class="container-fluid mb-2 text-end ">
-    <p class="display-3 fw-bold text-center border-bottom pb-1 border-primary border-bottom-4">Intel Core i3-12100F</p>
+    <p class="display-3 fw-bold text-center border-bottom pb-1 border-primary border-bottom-4">AMD Ryzen 5 3600</p>
     <img src="../../img/intel_logo.png" style="min-height: 50px; height: 45px;" class="justify-content-center text-end">
   </div>
   
@@ -54,17 +54,17 @@ let generateShop = () => {
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img src="../../img/CPU/intel_core_i312100f.jpg"  class="d-block w-100 mb-5" alt="...">
+          <img src="${img}"  class="d-block w-100 mb-5" alt="...">
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="../../img/CPU/intel_core_i312100f.jpg" class="d-block w-100 mb-5" alt="...">
+          <img src="${img}" class="d-block w-100 mb-5" alt="...">
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../../img/CPU/intel_core_i312100f.jpg" class="d-block w-100 mb-5" alt="...">
+          <img src="${img}" class="d-block w-100 mb-5" alt="...">
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
@@ -88,9 +88,9 @@ let generateShop = () => {
         Характеристики
       </div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 4 ядра / 8 нишки</li>
-        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.30 - 4.30 GHz</li>
-        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 15MB кеш</li>
+        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 6 ядра / 12 нишки</li>
+        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 3.60 - 4.20 GHz</li>
+        <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 32MB L3 кеш</li>
         <li class="list-group-item text-truncate link-primary"  style="min-width: 100px;"><a href="#properties">пълни характеристики <i class="bi bi-arrow-down "></i></a></li>
       </ul>
     </div>
