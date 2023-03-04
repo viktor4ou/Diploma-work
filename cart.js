@@ -33,40 +33,50 @@ let generateCartItems = () => {
         let search = shopItemsData.find((x) => x.id === id) || [];
         let { img, price, name } = search;
         return `
-      <div class="cart-item">
-        <img width="100" src=${img} alt="" />
-
-        <div class="details">
-        
-          <div class="title-price-x">
-            <h4 class="title-price">
-              <p>${name}</p>
-              <p class="cart-item-price">$ ${price}</p>
-            </h4>
-            <i onclick="removeItem(${id})" class="bi bi-x-lg"></i>
+      <div class="cart-item" id="center">
+      <div class="card mb-3 text-center " >
+      <div class="row " style="max-width: 1000px">
+        <div class=" container col-xs-2 col-sm-2 ">
+          <img src="${img}" class="img-fluid  rounded-start" style="min-width:100px ; min-height: 100px;">
+        </div>
+        <div class="col-12 row d-xs-block justify-content-sm-center" style="max-width:max-content;>
+          <div class="card-body border">
+          
+          
+          <div class="container col-lg-5 d-flex justify-content-center">
+            <h5 class=" d-flex mt-4 h4 fw-bold" style="max-width:max-content;">${name}</h5>
           </div>
 
-          <div class="cart-buttons">
-            <div class="buttons">
-              <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>
-              <div id=${id} class="quantity">${item}</div>
-              <i onclick="increment(${id})" class="bi bi-plus-lg"></i>
+          <div class="container col-lg-4 d-flex justify-content-center">
+            <div class=" mt-3" style="max-width:max-content;">
+                <div class="" >
+                  <i onclick="decrement(${id})" class="bi bi-dash-lg  btn h5" ></i>
+                  <div id=${id} class="h5" style="display: inline;">${item}</div>
+                  <i onclick="increment(${id})" class="bi bi-plus-lg  btn h5" ></i>
+                </div>
             </div>
           </div>
 
-          <h3>$ ${item * price}</h3>
-        
+          <div class="container col-lg-2 d-flex justify-content-center">
+            <h3 class="d-flex h4 mt-4 text-danger fw-bold" style="max-width:max-content;">${item * price}лв.</h3>
+          </div>
+
+          <div class="container col-lg-1 ">
+            <i onclick="removeItem(${id})" class="bi bi-x-lg h5  fw-bolder " style="cursor: pointer;"></i>
+          </div>
+          </div>
         </div>
       </div>
+    </div>
       `;
       })
       .join(""));
   } else {
     ShoppingCart.innerHTML = "";
     label.innerHTML = `
-    <h2>Cart is Empty</h2>
+    <h2 class="fw-bold pt-3">Количката е празна</h2>
     <a href="index.html">
-      <button class="HomeBtn">Back to Home</button>
+      <button class="btn btn-primary">Начало</button>
     </a>
     `;
   }
@@ -158,9 +168,9 @@ let TotalAmount = () => {
       .reduce((x, y) => x + y, 0);
 
     return (label.innerHTML = `
-    <h2>Total Bill : $ ${amount}</h2>
-    <button class="checkout">Checkout</button>
-    <button onclick="clearCart()" class="removeAll">Clear Cart</button>
+    <h2 class="fw-bold pt-3">Общo ${amount}лв.</h2>
+    <div class="btn btn-primary">Поръчай</div>
+    <button onclick="clearCart()" class="btn btn-danger">Премахни всичко</button>
     `);
   } else return;
 };

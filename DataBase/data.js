@@ -1,7 +1,7 @@
 let shopItemsData = [
   {
     id: "intel_i3_12100f",
-    name: "Intel i3-12100F",
+    name: "Intel Core i3-12100F",
     price: 229,
     desc: `<i class="bi bi-check-lg"></i> 4 ядра / 8 нишки
     <br><i class="bi bi-check-lg"></i> 3.30 - 4.30 GHz
