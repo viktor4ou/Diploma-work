@@ -62,6 +62,99 @@ body{
   width: 50%;
   padding: 10px;
 }
+/*Къде да бъде позициониран контейнера след като бъде отворен */
+nav .end_bx .search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+/*Анимация и стилизация на input */
+nav .end_bx .search input {
+    padding: 3px 0px 3px 8px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+    width: 0px;
+}
 
+/*Иконката на Search (лупата)*/
+nav .end_bx .search i {
+    color: rgb(255, 255, 255, .7);
+    font-size: 13px;
+    cursor: pointer;
+    transition: .4s linear;
+}
+/*Когато иконката се hover-не */
+nav .end_bx .search i:hover {
+    color: #fff;
+}
+/*Стилизация на продукта  */
+nav .end_bx .search .search_bx2 {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    top: 35px;
+    left: -10px;
+    background: rgb(253, 253, 253);
+    border-radius: 10px;
+    overflow: auto;
+    visibility: hidden;
+    opacity: 0.1;
+    transition: .3s linear;
+}
+
+
+
+/*Всеки един елемент */
+nav .end_bx .search .search_bx2 a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transition: .3s linear;
+}
+
+/*Фона на контейнера на Search */
+nav .end_bx .search .search_bx2 a:hover {
+    background: rgb(255, 254, 254);
+}
+
+/*Снимките в Search */
+nav .end_bx .search .search_bx2 a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+/*Скрол в Search */
+nav .end_bx .search .search_bx2::-webkit-scrollbar {
+    width: 7px;
+    background: rgb(184, 184, 184, .3);
+    border-radius: 20px;
+}
+/*Скрол в Search */
+nav .end_bx .search .search_bx2::-webkit-scrollbar-thumb {
+    background: rgba(12, 12, 12, 0.7);
+    border-radius: 20px;
+}
+
+/*Името на продукта в Search */
+nav .end_bx .search .search_bx2 a .content2 {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Размера на Search */
+nav .end_bx .search .search_input {
+    width: 300px;
+}
 
 
