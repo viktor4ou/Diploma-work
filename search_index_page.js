@@ -1,4 +1,4 @@
-import {shopItemsData} from './DataBase/searchData.js';	
+import {shopItemsData} from './DataBase/searchData_Index_Pages.js';	
 let search = document.getElementById('search');
 let search_icon = document.getElementById('search_icon');
 
