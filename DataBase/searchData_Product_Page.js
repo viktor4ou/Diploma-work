@@ -20,7 +20,6 @@ export let  shopItemsData = [
     {
       id: "ryzen_5_5600",
       name: "AMD Ryzen 5 5600",
-      price: 239,
       img: "../../img/CPU/amd_ryzen_5_5600.jpg",
       url: "../../Components/CPU/Ryzen-5-5600.html",
       
