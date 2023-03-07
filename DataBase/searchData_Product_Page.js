@@ -26,9 +26,9 @@ export let  shopItemsData = [
     },
     {
       id: "ryzen_7_5700x",
-      name: "AMD Ryzen 7 5700",
+      name: "AMD Ryzen 7 5700X",
       img: "../../img/CPU/amd_ryzen_7_5700x.jpg",
-      url: "../../Components/CPU/", // todo 
+      url: "../../Components/CPU/Ryzen-7-5700x.html", 
     },
     {
       id: "intel_i5_11600kf",
@@ -40,13 +40,13 @@ export let  shopItemsData = [
       id: "ryzen_5_7600x",
       name: "AMD Ryzen 5 7600X",
       img: "../../img/CPU/amd_ryzen_5_7600x.png",
-      url: "../../Components/CPU/", // todo 
+      url: "../../Components/CPU/Ryzen-5-7600x.html", 
     },
     {
       id: "intel_i5_12600KF",
       name: "Intel Core i5-12600KF",
       img: "../../img/CPU/intel_core_i512600kf.jpg",
-      url: "../../Components/CPU/", // todo 
+      url: "../../Components/CPU/i5-12600kf.html", 
     },
     {
       id: "ryzen_9_5950x",

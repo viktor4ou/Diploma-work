@@ -39,7 +39,7 @@ let shopItemsData = [
   },
   {
     id: "ryzen_7_5700x",
-    name: "AMD Ryzen 7 5700",
+    name: "AMD Ryzen 7 5700X",
     price: 479,
     desc1:`<i class="bi bi-check-lg"></i> 8 ядра / 16 нишки`,
     desc2:`<i class="bi bi-check-lg"></i> 3.40 - 4.60 GHz`,
