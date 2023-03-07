@@ -51,15 +51,15 @@ export let  shopItemsData = [
   },
   {
     id: "ryzen_9_5950x",
-    name: "AMD Ryzen 9 5950",
+    name: "AMD Ryzen 9 5950X",
     img: "../../img/CPU/amd_ryzen_9_5950x.jpg",
-    url: "../../Components/CPU/", //todo
+    url: "../../Components/CPU/Ryzen-9-5950x.html", 
   },
   {
     id: "intel_i9_12900ks",
     name: "Intel Core i9-12900KS",
     img: "../../img/Top Products/intel_core_i912900ks.jpg",
-    url: "../../Components/CPU/", //todo
+    url: "../../Components/CPU/i9-12900ks.html", 
   },
   {
     id: "intel_i5_13600kf",

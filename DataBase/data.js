@@ -88,7 +88,7 @@ let shopItemsData = [
     price: 1499,
     desc1:`<i class="bi bi-check-lg"></i> 16 ядра / 24 нишки`,
     desc2:`<i class="bi bi-check-lg"></i> 3.20 - 5.50 GHz`,
-    desc3:`<i class="bi bi-check-lg"></i> 32MB кеш `,
+    desc3:`<i class="bi bi-check-lg"></i> 32 MB Intel `,
     img: "../../img/Top Products/intel_core_i912900ks.jpg",
   },
   {
