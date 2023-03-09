@@ -65,24 +65,48 @@ export let  shopItemsData = [
     id: "intel_i5_13600kf",
     name: "Intel Core i5-13600KF",
     img: "../../img/CPU/intel_core_i513600kf.jpg",
-    url: "../../Components/CPU/", //todo
+    url: "../../Components/CPU/i5-13600kf.html", 
   },
   {
     id: "intel_i7_13700kf",
     name: "Intel Core i7-13700KF",
     img: "../../img/CPU/intel_core_i713700kf.png",
-    url: "../../Components/CPU/", //todo
+    url: "../../Components/CPU/i7-13700kf.html",
   },
   {
     id: "intel_i7_13700k",
     name: "Intel Core i7-13700K",
     img: "../../img/CPU/intel_core_i713700k.png",
-    url: "../../Components/CPU/", //todo
+    url: "../../Components/CPU/i7-13700k.html", 
   },
   {
     id: "intel_i9_12900kf",
     name: "Intel Core i9-12900KF",
     img: "../../img/CPU/intel_core_i912900kf.jpg",
-    url: "../../Components/CPU/", //todo
+    url: "../../Components/CPU/i9-12900kf.html",
+  },
+  {
+    id: "intel_i9_13900kf",
+    name: "Intel Core i9-13900KF",
+    img: "../../img/CPU/intel_core_i913900kf.png",
+    url: "../../Components/CPU/i9-13900kf.html", 
+  },
+  {
+    id: "ryzen_9_5950",
+    name: "AMD Ryzen 9 5950",
+    img: "../../img/CPU/amd_ryzen_9_5950x.jpg",
+    url: "../../Components/CPU/Ryzen-9-5950.html", 
+  },
+  {
+    id: "ryzen_9_7950x",
+    name: "AMD Ryzen 9 7950X",
+    img: "../../img/CPU/amd_ryzen_9_7950x.png",
+    url: "../../Components/CPU/Ryzen-9-7950x.html", 
+  },
+  {
+    id: "ryzen_7_5800x3d",
+    name: "AMD Ryzen 7 5800X3D",
+    img: "../../img/CPU/amd_ryzen_7_5800x3d.png",
+    url: "../../Components/CPU/Ryzen-7-5800x3d.html", 
   },
 ];

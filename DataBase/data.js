@@ -97,7 +97,7 @@ let shopItemsData = [
     price: 666,
     desc1:`<i class="bi bi-check-lg"></i> 16 ядра / 20 нишки`,
     desc2:`<i class="bi bi-check-lg"></i> 2.60 - 5.10 GHz`,
-    desc3:`<i class="bi bi-check-lg"></i> 24MB кеш `,
+    desc3:`<i class="bi bi-check-lg"></i> 24 MB Intel`,
     img: "../../img/CPU/intel_core_i513600kf.jpg",
   },
   {
@@ -106,7 +106,7 @@ let shopItemsData = [
     price: 929,
     desc1:`<i class="bi bi-check-lg"></i> 16 ядра / 24 нишки`,
     desc2:`<i class="bi bi-check-lg"></i> 3.40 - 5.40 GHz`,
-    desc3:`<i class="bi bi-check-lg"></i>30 MB Intel `,
+    desc3:`<i class="bi bi-check-lg"></i> 30 MB Intel `,
     img: "../../img/CPU/intel_core_i713700kf.png",
   },
   {
@@ -115,7 +115,7 @@ let shopItemsData = [
     price: 949,
     desc1:`<i class="bi bi-check-lg"></i> 16 ядра / 24 нишки`,
     desc2:`<i class="bi bi-check-lg"></i> 3.40 - 5.40 GHz`,
-    desc3:`<i class="bi bi-check-lg"></i>30 MB Intel `,
+    desc3:`<i class="bi bi-check-lg"></i> 30 MB Intel `,
     img: "../../img/CPU/intel_core_i713700k.png",
   },
   {
@@ -123,8 +123,8 @@ let shopItemsData = [
     name: "Intel Core i9-12900KF",
     price: 1119,
     desc1:`<i class="bi bi-check-lg"></i> 24 ядра / 32 нишки`,
-    desc2:`<i class="bi bi-check-lg"></i>5.20 GHz`,
-    desc3:`<i class="bi bi-check-lg"></i>30 MB Intel Smart `,
+    desc2:`<i class="bi bi-check-lg"></i> 5.20 GHz`,
+    desc3:`<i class="bi bi-check-lg"></i> 30 MB Intel Smart `,
     img: "../../img/CPU/intel_core_i912900kf.jpg",
   },
 ];
