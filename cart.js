@@ -1,30 +1,19 @@
+//Вземаме елемент с Id shopping-cart
 let ShoppingCart = document.getElementById("shopping-cart");
+//Вземаме елемент с Id label
 let label = document.getElementById("label");
 
-/**
- * ! Basket to hold all the selected items
- * ? the getItem part is retrieving data from the local storage
- * ? if local storage is blank, basket becomes an empty array
- */
-
+//Създаваме си масив в който ще се съхраняват всички продукти
 let basket = JSON.parse(localStorage.getItem("app")) || [];
-/**
- * ! To calculate total amount of selected Items
- */
 
+//Общатото количесто на продуктите в количката и да се покажат ако badge
 let calculation = () => {
   let cartIcon = document.getElementById("cartAmount");
   cartIcon.innerHTML = basket.map((x) => x.item).reduce((x, y) => x + y, 0);
 };
 
 calculation();
-
-/**
- * ! Generates the Cart Page with product cards composed of
- * ! images, title, price, buttons, & Total price
- * ? When basket is blank -> show's Cart is Empty
- */
-
+//Генерираме всички продукти в количката
 let generateCartItems = () => {
   if (basket.length !== 0) {
     return (ShoppingCart.innerHTML = basket
@@ -84,10 +73,8 @@ let generateCartItems = () => {
 
 generateCartItems();
 
-/**
- * ! used to increase the selected product item quantity by 1
- */
 
+//Когато се натисне бутона '+' да се увеличи количеството на продукта
 let increment = (id) => {
   let selectedItem = id;
   let search = basket.find((x) => x.id === selectedItem.id);
@@ -106,10 +93,7 @@ let increment = (id) => {
   localStorage.setItem("app", JSON.stringify(basket));
 };
 
-/**
- * ! used to decrease the selected product item quantity by 1
- */
-
+//Когато се натисне бутона '-' да се намали количеството на продукта
 let decrement = (id) => {
   let selectedItem = id;
   let search = basket.find((x) => x.id === selectedItem.id);
@@ -126,10 +110,8 @@ let decrement = (id) => {
   localStorage.setItem("app", JSON.stringify(basket));
 };
 
-/**
- * ! To update the digits of picked items on each item card
- */
 
+//Да се обнови количеството на продукта в количката
 let update = (id) => {
   let search = basket.find((x) => x.id === id);
   document.getElementById(id).innerHTML = search.item;
@@ -137,11 +119,7 @@ let update = (id) => {
   TotalAmount();
 };
 
-/**
- * ! Used to remove 1 selected product card from basket
- * ! using the X [cross] button
- */
-
+// Да се изтрие продукта от количката
 let removeItem = (id) => {
   let selectedItem = id;
   basket = basket.filter((x) => x.id !== selectedItem.id);
@@ -151,12 +129,8 @@ let removeItem = (id) => {
   localStorage.setItem("app", JSON.stringify(basket));
 };
 
-/**
- * ! Used to calculate total amount of the selected Products
- * ! with specific quantity
- * ? When basket is blank, it will show nothing
- */
 
+//Да се изчисли общата сума на продуктите в количката
 let TotalAmount = () => {
   if (basket.length !== 0) {
     let amount = basket
@@ -166,21 +140,19 @@ let TotalAmount = () => {
         return filterData.price * item;
       })
       .reduce((x, y) => x + y, 0);
-
+    
     return (label.innerHTML = `
     <h2 class="fw-bold pt-3">Общo ${amount}лв.</h2>
     <div class="btn btn-primary">Поръчай</div>
     <button onclick="clearCart()" class="btn btn-danger">Премахни всичко</button>
     `);
   } else return;
+  //имаме else return защото ако количката е празна, да не се показва нищо
 };
 
 TotalAmount();
 
-/**
- * ! Used to clear cart, and remove everything from local storage
- */
-
+//Да се изчисти количката
 let clearCart = () => {
   basket = [];
   generateCartItems();
