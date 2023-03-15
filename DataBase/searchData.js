@@ -107,5 +107,41 @@ export let  shopItemsData = [
       img: "../../img/CPU/amd_ryzen_7_5800x3d.png",
       url: "../../Components/CPU/Ryzen-7-5800x3d.html", 
     },
+    {
+      id: "rtx_3050",
+      name: "GeForce RTX 3050",
+      img: "../../img/GPU/rtx_3050.png",
+      url: "../../Components/GPU/rtx-3050.html", 
+    },
+    {
+      id: "rx_6600",
+      name: "ASRock Radeon RX 6600",
+      img: "../../img/GPU/rx_6600.png",
+      url: "../../Components/GPU/rx-6600.html",
+    },
+    {
+      id: "rx_6700",
+      name: "ASRock Radeon RX 6700",
+      img: "../../img/GPU/rx_6700_xt.png",
+      url: "../../Components/GPU/rx-6700.html",
+    },
+    {
+      id: "rx_6750",
+      name: "MSI Radeon RX 6750",
+      img: "../../img/GPU/rx_6750.png",
+      url: "../../Components/GPU/rx-6750.html",
+    },
+    {
+      id: "rtx_4090",
+      name: "GAINWARD RTX 4090",
+      img: "../../img/Top Products/MSI_RTX_4090.png",
+      url: "../../Components/GPU/rtx-4090.html",
+    },
+    {
+      id: "msi_rtx_4090",
+      name: "MSI GeForce RTX 4090",
+      img: "../../img/Top Products/MSI_RTX_4090_Trio.png",
+      url: "../../Components/GPU/msi_rtx-4090.html",
+    },
   ];
 
