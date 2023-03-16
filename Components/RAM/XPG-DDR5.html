@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VSG Computers</title>
+    <link href="/css/main.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.2.js" integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="/img/icon.jpg" type="icon">
+</head>
+<body>
+<!-- Започва Navbar-->
+<nav>
+  <div class="navbar border-bottom border-bottom-5 border-danger navbar-expand-custom navbar-dark bg-dark bg-gradient clearfix end_bx mb-5">
+
+    <!--Главното име на сайта в Navbar--> 
+          <a class="navbar-brand justify-content-center" href="../../index.html">
+              <img src="/img/banner.png" class="mx-2"></img>
+          </a>
+      <!-- Search меню начало-->
+      <div class="container-lg" style="width: 500px; z-index:10;">
+          <div class="row justify-content-center">
+              <div class="col-12">
+                <div class="search">
+                  <input type="text" placeholder="Какво ще желаете?" class="fw-bold" id="search">
+                  <i class="bi bi-search"style="font-size: 20px" id="search_icon"></i>
+                  <div class="search_bx2">
+                  </div>
+              </div> 
+              </div>
+          </div>
+      </div>
+      <!--Бутона който се показва при по-малките екари/телефони-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> 
+    </button>
+      <!--Navbar Content-->
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav shadow-lg">
+            <div class="nav-item my-3 mx-4 " id="navbarNav">
+              <a href="Periferia.html" class="nav-link text-light  ps-2 justify-content-center" id="navbarNav"><h4>Компютри</h4></a>
+            </div>
+              <!-- Dropdown за Компоненти начало-->
+              <li class="nav-item dropdown my-3 mx-2 "id="navbarNav" > 
+                <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <h4>Компоненти</h4>
+                </button>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class=" dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Components/Processors.html"><i class="bi bi-cpu"></i> Процесори</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Components/GPU.html"><i class="bi bi-gpu-card"></i> Видео карти</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-memory"></i> RAM памети</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-motherboard"></i> Дънни платки</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-stop-btn"></i> Захранвания</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-device-ssd"></i> SSD дискове</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-device-hdd"></i> HDD дискове</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-pc"></i> Кутии</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-postage-fill"></i> Охладители</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-fan"></i> Вентилатори</a></li>
+                </ul>
+              </li>
+              <!-- Dropdown за Периферия начало-->
+              <li class="nav-item dropdown my-3 mx-2 "id="navbarNav" > 
+                <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <h4>Периферия</h4>
+                </button>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-keyboard"></i> Клавиатури</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-mouse3"></i> Мишки</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-headset"></i> Слушалки</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="#"><i class="bi bi-display"></i> Монитори</a></li>
+                </ul>
+              </li>
+              <!-- Dropdown за Аксесоари и Софтуери начало-->
+              <div class="nav-item my-3 mx-4 " id="navbarNav">
+                <a href="Periferia.html" class="nav-link text-light  ps-2 justify-content-center" id="navbarNav"><h4>Аксесоари</h4></a>
+              </div>
+              <!-- Количка-->
+              <li class="navbar-nav active text-light my-3 mx-5 cart" id="navbarNav" >
+                <a href="../../cart.html">
+                  <div class="cart">
+                    <button class="btn text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg></button>
+                    <div id="cartAmount" class="cartAmount">0</div>
+                  </div>
+                </a>
+              </li>
+          </div>
+      </div>
+  </div>
+</nav>
+<!-- Приключва Navbar -->
+  
+  
+    <!--Продукт край-->
+    <div class="shop" id="shop">
+    <section class="p-3">
+      <div class="container-fluid bg-light border ">
+        <!--Заглавие-->
+        <div class="container-fluid mb-2 text-end ">
+          <p class="display-3 fw-bold text-center border-bottom pb-1 border-primary border-bottom-4">16GB DDR5 5200МHz XPG</p>
+        </div>
+        
+        <!--Продукт начало-->
+        <div class="container-xll border d-flex mb-4 row d-flex justify-content-center" >
+        <!--Снимка carousel начало-->
+         <div class="container bg-light shadow-lg col-lg-1 col-md-1  me-5 ms-3 mt-3 ms-lg-5 mx-md-0 mx-xl-1 mx-xxl-5 pt-5 " style="width: 430px;">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators ">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../../img/RAM/xpg_black_16gb.png"  class="d-block w-100 mb-5" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../../img/RAM/xpg_black_16gb.png" class="d-block w-100 mb-5" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../../img/RAM/xpg_black_16gb.png" class="d-block w-100 mb-5" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!--Снимка carousel край-->
+    
+        <!--Описание начало-->
+        <div class="container-fluid fw-bold col-md-2 col-lg-2 col-xl-2 col-xxl-2 pt-3 mx-md-2 mx-lg-5 mt-5" >
+          <div class="card" style="width: 15rem;">
+            <div class="card-header h5 text-center">
+              Характеристики
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 16GB</li>
+              <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> DDR5</li>
+              <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> 5200Mhz</li>
+              <li class="list-group-item text-truncate link-primary"  style="min-width: 100px;"><a href="#properties">пълни характеристики <i class="bi bi-arrow-down "></i></a></li>
+            </ul>
+          </div>
+        </div>  
+        <!--Описание край-->
+    
+        <!--Цена начало-->
+        <div class="container-fluid border shadow-lg bg-light col-md-6 col-lg-7 col-xl-5 col-xxl-5  m-md-5 ms-lg-5 mt-3 ms-3 mt-3 mx-xxl-5 py-5" style="width: 300px;">
+          <div class="card " >
+            <div class="card-body d-flex justify-content-center">
+              <span>
+                <h3  class="card-link text-danger fw-bold pt-3">139лв.</h3>
+                <div class="d-flex">
+                </div>
+              </span>
+            </div>
+            </div>
+            <ul class="list-group list-group-flush fw-bold shadow-lg text-center mt-3">
+              <li class="list-group-item text-success"><i class="bi bi-truck h5 "></i>&nbspБърза доставка</li>
+              <li class="list-group-item text-warning "><i class="bi bi-star-fill"></i>&nbspВисоко качество</li>
+              <li class="list-group-item text-primary"><i class="bi bi-box-arrow-left"></i>&nbspПраво на връщане</li> 
+            </ul>
+            <div class="card-body justify-content-center d-flex mt-4">
+              <button class="btn btn-primary text-center fw-bold p-2 d-flex display-3" disabled><i class="bi bi-cart3"></i>&nbspДобави в количката</button>
+            </div>
+        </div>
+        <!--Цена край-->
+        </div>
+        <!--Продукт край-->
+    
+      </div>
+    </section>
+  
+   </div>
+  <!--Допълнителни продукти начало-->
+  <div class="container-fluid mt-5 mx-0 shadow-lg row justify-content-center text-center bg-light" >
+    <p class="display-3 fw-bold text-center border-bottom pb-1 border-primary border-bottom-4">Топ продукти</p>
+  
+    <!--AMD Ryzen 9 5950X-->
+    <div class="col-7 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 " >
+      <div class="card" style="width: 15rem;">
+        <img src="../../img/Top Products/amd_ryzen_9_5950x.jpg" class="card-img-top">
+        <div class="card-body">
+          <a href="/Components/CPU/Ryzen-9-5950x.html" class="card-link fw-bold h6">AMD Ryzen 9 5950X</a>
+          <h3 href="#" class="card-link text-danger fw-bold pt-2">1169лв.</h3>
+          <div class="d-flex justify-content-center">
+            <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">1369лв.</p>
+            <span class="text-danger" style="text-decoration: none;">&nbsp(-14%)</span>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!--Intel Core i9-12900KS-->
+    <div class="col-7 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 ">
+      <div class="card" style="width: 15rem;">
+        <img src="../../img/Top Products/intel_core_i912900ks.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="/Components/CPU/i9-12900ks.html" class="card-link fw-bold h6">Intel Core i9-12900KS</a>
+          <h3 href="#" class="card-link text-danger fw-bold pt-2">1499лв.</h3>
+          <div class="d-flex justify-content-center">
+            <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">1619лв.</p>
+            <span class="text-danger" style="text-decoration: none;">&nbsp(-8%)</span>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!--MSI GeForce RTX 4090-->
+    <div class="col-7 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 ">
+      <div class="card" style="width: 15rem;">
+        <img src="../../img/Top Products/MSI_RTX_4090.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="/Components/" class="card-link fw-bold h6">MSI GeForce RTX 4090</a>
+          <h3 href="#" class="card-link text-danger fw-bold pt-2">4489лв.</h3>
+          <div class="d-flex justify-content-center">
+            <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">5027лв.</p>
+            <span class="text-danger" style="text-decoration: none;">&nbsp(-12%)</span>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!--Samsung Odyssey G5-->
+    <div class="col-7 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 ">
+      <div class="card" style="width: 15rem;">
+        <img src="../../img/Top Products/Samsung_32g5.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="#" class="card-link fw-bold h6">Samsung Odyssey G5</a>
+          <h3 href="#" class="card-link text-danger fw-bold pt-2">699лв.</h3>
+          <div class="d-flex justify-content-center">
+            <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">789лв.</p>
+            <span class="text-danger" style="text-decoration: none;">&nbsp(-18%)</span>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!--Logitech PRO X WIRELESS-->
+    <div class="col-7 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 ">
+      <div class="card" style="width: 15rem;">
+        <img src="../../img/Top Products/Logitech_GPro_Headset.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="#" class="card-link fw-bold h6">Logitech PRO X WIRELESS</a>
+          <h3 href="#" class="card-link text-danger fw-bold pt-2">399лв.</h3>
+          <div class="d-flex justify-content-center">
+            <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">479лв.</p>
+            <span class="text-danger" style="text-decoration: none;">&nbsp(-20%)</span>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!--Logitech G Pro-->
+    <div class="col-7 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 pb-sm-3 px-0 ">
+      <div class="card" style="width: 15rem;">
+        <img src="../../img/Top Products/Logitech_GPro_Keyboard.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="#" class="card-link fw-bold h6">Logitech G Pro</a>
+          <h3 href="#" class="card-link text-danger fw-bold pt-2">199лв.</h3>
+          <div class="d-flex justify-content-center">
+            <p href="#" class="card-link text-decoration-line-through" style="color: grey; text-decoration: line-through;">249лв.</p>
+            <span class="text-danger" style="text-decoration: none;">&nbsp(-20%)</span>
+          </div>
+        </div>
+      </div>
+    </div>  
+    
+  
+  </div>
+  <!--Допълнителни продукти край-->
+  
+  <!--Характеристики начало-->
+  <div class="container-fluid bg-light border mt-5" id="properties">
+    <table class="table">
+      <thead>
+        <div class="display-3 fw-bold text-center border-bottom pb-2 border-primary border-bottom-4">Пълни характеристики</div>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="fw-bold w-25">МАРКА</td>
+          <td>ADATA</td>
+        </tr>
+        <tr>
+          <td class="fw-bold w-25">ТИП</td> 
+          <td>DDR4</td>
+        </tr>
+        <tr>
+          <td class="fw-bold w-25">ЧЕСТОТА</td>
+          <td>3600</td>
+        </tr>
+        <tr>
+          <td class="fw-bold w-25">Памет</td>
+          <td>16GB</td>
+        </tr>
+        <tr>
+          <td class="fw-bold w-25">ГАРАНЦИЯ</td>
+          <td>99 месеца</td>
+        </tr>
+        <tr>
+          <td class="fw-bold w-25">С РАДИАТОР</td>
+          <td><i class="bi bi-check-circle-fill text-success"></i></td>
+        </tr>
+        <tr>
+          <td class="fw-bold w-25">Светеща</td>
+          <td><i class="bi bi-check-circle-fill text-success"></i></td>
+        </tr>
+      </tbody>
+    </table>
+    
+  
+  </div>
+  <!--Характеристики край-->
+  </section>
+  
+<!--footer начало-->
+<section>
+  <div class="container-fluid bg-white py-5 px-sm-3 px-md-5 fw-bold" style="margin-top: 90px;">
+    <div class="row pt-5">
+      <!--Информация footer-->
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-uppercase  mb-4">Местоположение</h4>
+            <p class="mb-2"><i class="bi bi-pin-map"></i> бул. „Джеймс Баучер“ 82 , София</p>
+            <p class="mb-2"><i class="bi bi-telephone-fill"></i> +359 989 8848</p>
+            <p><i class="bi bi-envelope"></i> VSG_Computers@vsg.contact.com</p>
+            <h6 class="text-uppercase text-white py-2"></h6>
+            <div class="d-flex justify-content-start">
+                <button class="btn btn-lg btn-outline-dark btn-lg-square me-2" href="#"><i class="bi bi-twitter"></i></button>
+                <button class="btn btn-lg btn-outline-dark btn-lg-square me-2" href="#"><i class="bi bi-facebook"></i></button>
+                <button class="btn btn-lg btn-outline-dark btn-lg-square me-2" href="#"><i class="bi bi-linkedin"></i></button>
+                <button class="btn btn-lg btn-outline-dark btn-lg-square" href="#"><i class="bi bi-instagram"></i></button>
+            </div>
+        </div>
+        <!--Компоненти footer-->
+        <div class="col-lg-3 col-md-6 mb-5 ">
+            <h4 class="text-uppercase mb-4">Компоненти</h4>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-body mb-2" href="../Processors.html"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i> Процесори</a>
+                <a class="text-body mb-2" href="/Components/GPU.html"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i>Видео карти</a>
+                <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i>RAM памети</a>
+                <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i>Дънни платки</a>
+                <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i>SSD дискове</a>
+                <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i>HDD дискове</a>
+                <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i>Кутии</a>
+                <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i>Охладители</a>
+                <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i>Вентилатори</a>
+            </div>
+        </div>
+        <!--Периферия footer-->
+        <div class="col-lg-3 col-md-6 mb-5">
+          <h4 class="text-uppercase  mb-4">Периферия</h4>
+          <div class="d-flex flex-column justify-content-start">
+              <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Клавиатури</a>
+              <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Мишки</a>
+              <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Слушалки</a>
+              <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Микрофони</a>
+              <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Камери</a>
+              <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Контолери</a>
+              <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Монитори</a>
+          </div>
+        </div>
+        <!--Аксесоари footer-->
+        <div class="col-lg-3 col-md-6 mb-5">
+        <h4 class="text-uppercase  mb-4">Аксесоари</h4>
+        <div class="d-flex flex-column justify-content-start">
+            <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Аксесоари</a>
+        </div>
+        <h4 class="text-uppercase  my-4">Компютри</h4>
+        <div class="d-flex flex-column justify-content-start">
+            <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Компютри</a>
+        </div>
+        </div>
+        <!-- Промоции footer трябва да се добави бутона както Search-->
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-uppercase  mb-4">Абонирай се за промоции</h4>
+            
+            <div class="mb-3" style="min-width: 400px;">
+                <div class="input-group">
+                    <input type="text" class="form-control  border-dark" placeholder="Твоят имейл">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary text-uppercase px-3">Абонирай се</button>
+                    </div>
+                </div>
+            </div>
+            <i></i>
+        </div>
+    </div>
+  </div>
+</section>
+<!--footer край-->
+  
+  <!--Създател и Copyright-->
+  <div class="container-fluid text-center bg-dark ">
+    <h6 class="text-light">Създадено от Виктор Георгиев 12Е</h6>
+    <i class="fw-bold text-light">© 2022-2023</i>
+  </div>
+  
+  </body>
+  <script type="module" src="/DataBase/searchData.js" ></script>
+<script src="../../DataBase/data.js"></script>
+<script defer src="/search.js" type="module"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+</html>

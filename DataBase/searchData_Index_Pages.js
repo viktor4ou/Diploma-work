@@ -145,4 +145,40 @@ export let  shopItemsData = [
     img: "../../img/Top Products/MSI_RTX_4090_Trio.png",
     url: "../../Components/GPU/msi_rtx-4090.html",
   },
+  {
+    id: "TG_8gb",
+    name: "8GB 2666MHz DDR4 Team Group",
+    img: "../../img/RAM/team_group_8gb.jpg",
+    url: "../../Components/RAM/TeamGroup-8gb.html",
+  },
+  {
+    id: "GSKILL_8gb",
+    name: "8GB DDR4 3200 G.SKILL",
+    img: "../../img/RAM/gskill_8gb.png",
+    url: "../../Components/RAM/GSKILL-8gb.html",
+  },
+  {
+    id: "XPG_16gb",
+    name: "16GB DDR4 3600MHz XPG",
+    img: "../../img/RAM/xpg_16gb.png",
+    url: "../../Components/RAM/XPG-16gb.html",
+  },
+  {
+    id: "XPG_DDR5",
+    name: "16GB DDR5 5200МHz XPG",  
+    img: "../../img/RAM/xpg_black_16gb.png",
+    url: "../../Components/RAM/XPG-DDR5.html",
+  },
+  {
+    id: "kingston_32gb",
+    name: "32GB DDR5 5200MHz Kingston FURY",  
+    img: "../../img/RAM/kingston_32gb_ddr5.png",
+    url: "../../Components/RAM/Kingston-32gb.html",
+  },
+  {
+    id: "kingston_2x16gb",
+    name: "32GB (2x16GB) 3600MHz DDR4 Kingston FURY",  
+    img: "../../img/RAM/kingston_2x16_ddr4.jpg",
+    url: "../../Components/RAM/Kingston-2x16gb.html",
+  },
 ];

@@ -154,4 +154,33 @@ let shopItemsData = [
     desc3:`<i class="bi bi-check-lg"></i> 1x DisplayPort`,
     img: "../../img/GPU/rx_6700_xt.png",
   },
+  {
+    id: "TG_8gb",
+    name: "8GB 2666MHz DDR4 Team Group",
+    price: 47,
+    desc1:`<i class="bi bi-check-lg"></i> 8GB`,
+    desc2:`<i class="bi bi-check-lg"></i> DDR4`,
+    desc3:`<i class="bi bi-check-lg"></i> 2666Mhz`,
+    img: "../../img/RAM/team_group_8gb.jpg",
+  },
+  {
+    id: "GSKILL_8gb",
+    name: "8GB DDR4 3200 G.SKILL",
+    price: 49,
+    desc1:`<i class="bi bi-check-lg"></i> 8GB`,
+    desc2:`<i class="bi bi-check-lg"></i> DDR4`,
+    desc3:`<i class="bi bi-check-lg"></i> 3200Mhz`,
+    img: "../../img/RAM/gskill_8gb.png",
+  },
+  {
+    id: "XPG_16gb",
+    name: "16GB DDR4 3600MHz XPG",
+    price: 109,
+    desc1:`<i class="bi bi-check-lg"></i> 16GB`,
+    desc2:`<i class="bi bi-check-lg"></i> DDR4`,
+    desc3:`<i class="bi bi-check-lg"></i> 3600Mhz`,
+    img: "../../img/RAM/xpg_16gb.png",
+    
+  },
+
 ];
