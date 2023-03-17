@@ -208,5 +208,32 @@ let shopItemsData = [
     desc3:`<i class="bi bi-check-lg"></i> DisplayPort/HDMI`,
     img: "../../img/MotherBoard/gigabyte_b660m_gaming_x_ddr4.png",
   },
+  {
+    id: "A650BN",
+    name: "MSI MAG A650BN 650W Bronze",
+    price: 129,
+    desc1:`<i class="bi bi-check-lg"></i> 650W Plus Bronze`,
+    desc2:`<i class="bi bi-check-lg"></i> 120мм вентилатор`,
+    desc3:`<i class="bi bi-check-lg"></i> Active PFC`,
+    img: "../../img/PSU/msi_mag_a650bn.png",
+  },
+  {
+    id: "GEC",
+    name: "COUGAR GEC 650 650W Gold",
+    price: 139,
+    desc1:`<i class="bi bi-check-lg"></i> 650W`,
+    desc2:`<i class="bi bi-check-lg"></i> 80 Plus Gold`,
+    desc3:`<i class="bi bi-check-lg"></i> 1х вентилатор 120 мм`,
+    img: "../../img/PSU/cougar_gec_650_650w_gold.png",
+  },
+  {
+    id: "ZM500",
+    name: "Zalman MegaMax ZM500-TXII 500W",
+    price: 96,
+    desc1:`<i class="bi bi-check-lg"></i> 500W`,
+    desc2:`<i class="bi bi-check-lg"></i> Вентилатор 120мм`,
+    desc3:`<i class="bi bi-check-lg"></i> 80 PLUS`,
+    img: "../../img/PSU/zalman_megamax_500w_zm500txii.jpg",
+  },
 
 ];

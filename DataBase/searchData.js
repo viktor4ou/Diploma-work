@@ -215,5 +215,41 @@ export let  shopItemsData = [
       img: "../../img/MotherBoard/asus_rog_strix_b560g_gaming_wifi.png",
       url: "../../Components/MotherBoard/B560M.html",
     },
+    {
+      id: "1000P3",
+      name: "EVGA SuperNOVA 1000 P3 Platinum 1000W",
+      img: "../../img/PSU/evga_supernova_1000_p3.png",
+      url: "../../Components/PSU/1000P3.html",
+    },
+    {
+      id: "1000P6", 
+      name: "EVGA SuperNOVA 1000 P6 1000W Platinum",
+      img: "../../img/PSU/evga_supernova_1000_p6.png",
+      url: "../../Components/PSU/1000P6.html",
+    },
+    {
+      id: "A650BN",
+      name: "MSI MAG A650BN 650W Bronze",
+      img: "../../img/PSU/msi_mag_a650bn.png",
+      url: "../../Components/PSU/A650BN.html",
+    },
+    {
+      id: "GEC",
+      name: "COUGAR GEC 650 650W Gold",
+      img: "../../img/PSU/cougar_gec_650_650w_gold.png",
+      url: "../../Components/PSU/GEC.html",
+    },
+    {
+      id: "VTE500",
+      name: "Cougar VTE 500W Bronze",
+      img: "../../img/PSU/cougar_vte500.png",
+      url: "../../Components/PSU/VTE500.html",
+    },
+    {
+      id: "ZM500",
+      name: "Zalman MegaMax ZM500-TXII 500W",
+      img: "../../img/PSU/zalman_megamax_500w_zm500txii.jpg",
+      url: "../../Components/PSU/ZM500.html",
+    },
   ];
 
