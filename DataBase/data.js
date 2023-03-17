@@ -180,7 +180,33 @@ let shopItemsData = [
     desc2:`<i class="bi bi-check-lg"></i> DDR4`,
     desc3:`<i class="bi bi-check-lg"></i> 3600Mhz`,
     img: "../../img/RAM/xpg_16gb.png",
-    
+  },
+  {
+    id: "A520M",
+    name: "MSI A520M-A PRO",
+    price: 119,
+    desc1:`<i class="bi bi-check-lg"></i> AMD A520`,
+    desc2:`<i class="bi bi-check-lg"></i> AMD AM4`,
+    desc3:`<i class="bi bi-check-lg"></i> HDMI/DVI`,
+    img: "../../img/MotherBoard/msi_a520ma_pro.png",
+  },
+  {
+    id: "H510M",
+    name: "ASRock H510M-HDV R2.0",
+    price: 139,
+    desc1:`<i class="bi bi-check-lg"></i> LGA 1200`,
+    desc2:`<i class="bi bi-check-lg"></i> Intel H510`,
+    desc3:`<i class="bi bi-check-lg"></i> HDMI/DVI-D`,
+    img: "../../img/MotherBoard/asrock_h510mhdv_r20.png",
+  },
+  {
+    id: "B660M",
+    name: "GIGABYTE B660M GAMING X DDR4",
+    price: 279,
+    desc1:`<i class="bi bi-check-lg"></i> Intel B660`,
+    desc2:`<i class="bi bi-check-lg"></i> LGA 1700`,
+    desc3:`<i class="bi bi-check-lg"></i> DisplayPort/HDMI`,
+    img: "../../img/MotherBoard/gigabyte_b660m_gaming_x_ddr4.png",
   },
 
 ];

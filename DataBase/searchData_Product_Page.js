@@ -180,5 +180,41 @@ export let  shopItemsData = [
       img: "../../img/RAM/kingston_2x16_ddr4.jpg",
       url: "../../Components/RAM/Kingston-2x16gb.html",
     },
+    {
+      id: "A520M",
+      name: "MSI A520M-A PRO",
+      img: "../../img/MotherBoard/msi_a520ma_pro.png",
+      url: "../../Components/MotherBoard/A520M.html",
+    },
+    {
+      id: "H510M",
+      name: "ASRock H510M-HDV R2.0",
+      img: "../../img/MotherBoard/asrock_h510mhdv_r20.png",
+      url: "../../Components/MotherBoard/H510M.html",
+    },
+    {
+      id: "B660M",
+      name: "GIGABYTE B660M GAMING X DDR4",
+      img: "../../img/MotherBoard/gigabyte_b660m_gaming_x_ddr4.png",
+      url: "../../Components/MotherBoard/B660M.html",
+    },
+    {
+      id: "B760M",
+      name: "GIGABYTE B760M GAMING",
+      img: "../../img/MotherBoard/gigabyte_b760m_gaming.png",
+      url: "../../Components/MotherBoard/B760M.html",
+    },
+    {
+      id: "B550M",
+      name: "Gigabyte B550M Aorus Elite V2",
+      img: "../../img/MotherBoard/gigabyte_b550m_aorus_elite_v2.png",
+      url: "../../Components/MotherBoard/B550M.html",
+    },
+    {
+      id: "B560M",
+      name: "ASUS ROG STRIX B560-G GAMING WIFI",
+      img: "../../img/MotherBoard/asus_rog_strix_b560g_gaming_wifi.png",
+      url: "../../Components/MotherBoard/B560M.html",
+    },
   ];
 
