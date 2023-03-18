@@ -251,5 +251,41 @@ export let  shopItemsData = [
       img: "../../img/PSU/zalman_megamax_500w_zm500txii.jpg",
       url: "../../Components/PSU/ZM500.html",
     },
+    {
+      id: "8702tb",
+      name: "2TB Samsung SSD 870 EVO",
+      img: "../../img/SSD/samsung_ssd_870_evo_2tb.jpg",
+      url: "../../Components/SSD/870-2tb.html",
+    },
+    {
+      id: "870500gb", 
+      name: "Samsung SSD 870 EVO 500GB",
+      img: "../../img/SSD/samsung_ssd_870_evo_500gb.jpg",
+      url: "../../Components/SSD/870-500gb.html",
+    },
+    {
+      id: "9801gbpro",
+      name: "1TB Samsung 980 Pro M.2 NVMe",
+      img: "../../img/SSD/1tb_samsung_980_pro_pcie_40.png",
+      url: "../../Components/SSD/980-1tb-pro.html",
+    },
+    {
+      id: "9801tb",
+      name: "1TB Samsung SSD 980 PCIe 3.0",
+      img: "../../img/SSD/1tb_samsung_ssd_980_pcie_30.jpg",
+      url: "../../Components/SSD/980-1tb.html",
+    },
+    {
+      id: "980500gb",
+      name: "500GB Samsung SSD 980 PCIe 3.0",
+      img: "../../img/SSD/500gb_samsung_ssd_980_pcie_30.jpg",
+      url: "../../Components/SSD/980-500gb.html",
+    },
+    {
+      id: "wd2tb",
+      name: "2TB WD Blue SATA",
+      img: "../../img/SSD/2tb_wd_blue_sata.jpg",
+      url: "../../Components/SSD/WD-2tb.html",
+    },
   ];
 

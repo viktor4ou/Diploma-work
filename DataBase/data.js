@@ -235,5 +235,33 @@ let shopItemsData = [
     desc3:`<i class="bi bi-check-lg"></i> 80 PLUS`,
     img: "../../img/PSU/zalman_megamax_500w_zm500txii.jpg",
   },
-
+  //SSD
+  {
+    id: "SSD980",
+    name: "1TB Samsung 980 Pro M.2 NVMe",
+    price: 239,
+    desc1:`<i class="bi bi-check-lg"></i> 1TB`,
+    desc2:`<i class="bi bi-check-lg"></i> 7000 MB/сек четене`,
+    desc3:`<i class="bi bi-check-lg"></i> 5000 MB/сек запис`,
+    img: "../../img/SSD/1tb_samsung_980_pro_pcie_40.png",
+  },
+  {
+    id: "SSD870",
+    name: "SAMSUNG SSD 870 EVO 500GB",
+    price: 109,
+    desc1:`<i class="bi bi-check-lg"></i> 500GB`,
+    desc2:`<i class="bi bi-check-lg"></i> 560 MB/s четене`,
+    desc3:`<i class="bi bi-check-lg"></i> 530 MB/s запис`,
+    img: "../../img/SSD/samsung_ssd_870_evo_500gb.jpg",
+  },
+  {
+    id: "SSD980V",
+    name: "500GB Samsung SSD 980 PCIe 3.0",
+    price: 109,
+    desc1:`<i class="bi bi-check-lg"></i> 500GB`,
+    desc2:`<i class="bi bi-check-lg"></i> 3100 MB/s четене`,
+    desc3:`<i class="bi bi-check-lg"></i> 2600 MB/s писане`,
+    img: "../../img/SSD/500gb_samsung_ssd_980_pcie_30.jpg",
+  },
+  
 ];
