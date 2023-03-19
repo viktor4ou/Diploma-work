@@ -319,4 +319,32 @@ let shopItemsData = [
     desc3:`<i class="bi bi-check-lg"></i> N-key roll-over`,
     img: "../../img/Keyboard/razer_v3.png",
   },
+  //mouse
+  {
+    id: "razer",
+    name: "Razer Basilisk V3",
+    price: 89,
+    desc1:`<i class="bi bi-check-lg"></i> 10+1 програмируеми бутона`,
+    desc2:`<i class="bi bi-check-lg"></i> Razer HyperScroll Tilt Wheel`,
+    desc3:`<i class="bi bi-check-lg"></i> 11 зони за RGB осветление Razer Chroma`,
+    img: "../../img/Mouse/razer.jpg",
+  },
+  {
+    id: "logitech",
+    name: "Logitech G Pro Wireless",
+    price: 199,
+    desc1:`<i class="bi bi-check-lg"></i> Hero сензор с 25 600 DPI`,
+    desc2:`<i class="bi bi-check-lg"></i> 1ms LIGHTSPEED безжична технология`,
+    desc3:`<i class="bi bi-check-lg"></i> СУПЕР лека - 80гр. тегло`,
+    img: "../../img/Top Products/Logitech_GPro_Mouse.jpg",
+  },
+  {
+    id: "acer",
+    name: "Acer Predator Cestus 330 Gaming Mouse",
+    price: 98,
+    desc1:`<i class="bi bi-check-lg"></i> 6 бутона + колело за превъртане`,
+    desc2:`<i class="bi bi-check-lg"></i> 16 000 dpi - регулируем в 5 стъпки`,
+    desc3:`<i class="bi bi-check-lg"></i> 4 различни настройки за осветлението`,
+    img: "../../img/Mouse/acer.png",
+  },
 ];

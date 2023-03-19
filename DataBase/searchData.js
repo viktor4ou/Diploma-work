@@ -359,5 +359,41 @@ export let  shopItemsData = [
       img: "../../img/Keyboard/90MP00N6BKUA00.png",
       url: "../../Peripherials/Keyboard/Asus_Scope.html",
     },
+    {
+      id: "razer",
+      name: "Razer Basilisk V3",
+      img: "../../img/Mouse/razer.jpg",
+      url: "../../Peripherials/Mouse/Razer.html",
+    },
+    {
+      id: "gpro",
+      name: "Logitech G Pro Wireless",
+      img: "../../img/Top Products/Logitech_GPro_Mouse.jpg",
+      url: "../../Peripherials/Mouse/Gpro.html",
+    },
+    {
+      id: "acer",
+      name: "Acer Predator Cestus 330 Gaming Mouse",
+      img: "../../img/Mouse/acer.png",
+      url: "../../Peripherials/Mouse/Acer.html",
+    },
+    {
+      id: "asus",
+      name: "ASUS ROG Keris Wireless",
+      img: "../../img/Mouse/asus.png",
+      url: "../../Peripherials/Mouse/Asus.html",
+    },
+    {
+      id: "logitech",
+      name: "Logitech G PRO Wireless League of Legends",
+      img: "../../img/Mouse/logitech.jpg",
+      url: "../../Peripherials/Mouse/Logitech.html",
+    },
+    {
+      id: "steelseries",
+      name: "SteelSeries Rival 650 Wireless RGB",
+      img: "../../img/Mouse/SteelSeries.jpg",
+      url: "../../Peripherials/Mouse/SteelSeries.html",
+    },
   ];
 
