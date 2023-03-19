@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VSG Computers</title>
+    <link href="/css/main.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.2.js" integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="/img/icon.jpg" type="icon">
+    
+</head>
+<body>
+<!-- Започва Navbar-->
+<nav>
+  <div class="navbar border-bottom border-bottom-5 border-danger navbar-expand-custom navbar-dark bg-dark bg-gradient clearfix end_bx mb-5">
+
+    <!--Главното име на сайта в Navbar--> 
+          <a class="navbar-brand justify-content-center" href="../../index.html">
+              <img src="/img/banner.png" class="mx-2"></img>
+          </a>
+      <!-- Search меню начало-->
+      <div class="container-lg" style="width: 500px; z-index:10;">
+          <div class="row justify-content-center">
+              <div class="col-12">
+                <div class="search">
+                  <input type="text" placeholder="Какво ще желаете?" class="fw-bold" id="search">
+                  <i class="bi bi-search"style="font-size: 20px" id="search_icon"></i>
+                  <div class="search_bx2">
+                  </div>
+              </div> 
+              </div>
+          </div>
+      </div>
+      <!--Бутона който се показва при по-малките екари/телефони-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> 
+    </button>
+      <!--Navbar Content-->
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav shadow-lg">
+            <div class="nav-item my-3 mx-4 " id="navbarNav">
+              <a href="/PC/PC.html" class="nav-link text-light  ps-2 justify-content-center" id="navbarNav"><h4>Компютри</h4></a>
+            </div>
+              <!-- Dropdown за Компоненти начало-->
+              <li class="nav-item dropdown my-3 mx-2 "id="navbarNav" > 
+                <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <h4>Компоненти</h4>
+                </button>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class=" dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Components/Processors.html"><i class="bi bi-cpu"></i> Процесори</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Components/GPU.html"><i class="bi bi-gpu-card"></i> Видео карти</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Components/RAM.html"><i class="bi bi-memory"></i> RAM памети</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Components/MotherBoard.html"><i class="bi bi-motherboard"></i> Дънни платки</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Components/PSU.html"><i class="bi bi-stop-btn"></i> Захранвания</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Components/SSD.html"><i class="bi bi-device-ssd"></i> SSD дискове</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Components/HDD.html"><i class="bi bi-device-hdd"></i> HDD дискове</a></li>
+                </ul>
+              </li>
+              <!-- Dropdown за Периферия начало-->
+              <li class="nav-item dropdown my-3 mx-2 "id="navbarNav" > 
+                <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <h4>Периферия</h4>
+                </button>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Peripherials/Keyboard.html"><i class="bi bi-keyboard"></i> Клавиатури</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Peripherials/Mouse.html"><i class="bi bi-mouse3"></i> Мишки</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Peripherials/Headset.html"><i class="bi bi-headset"></i> Слушалки</a></li>
+                  <li><a class="dropdown-item h5 border-4 border-bottom border-primary text-light" href="/Peripherials/Monitors.html"><i class="bi bi-display"></i> Монитори</a></li>
+                </ul>
+              </li>
+              <!-- Dropdown за Аксесоари и Софтуери начало-->
+              <div class="nav-item my-3 mx-4 " id="navbarNav">
+                <a href="/Accessories/Accessories.html" class="nav-link text-light  ps-2 justify-content-center" id="navbarNav"><h4>Аксесоари</h4></a>
+              </div>
+              <!-- Количка-->
+              <li class="navbar-nav active text-light my-3 mx-5 cart" id="navbarNav" >
+                <a href="../../cart.html">
+                  <div class="cart">
+                    <button class="btn text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg></button>
+                    <div id="cartAmount" class="cartAmount">0</div>
+                  </div>
+                </a>
+              </li>
+          </div>
+      </div>
+  </div>
+</nav>
+<!-- Приключва Navbar -->
+
+
+<section class=" p-3">
+    <div class="container-fluid bg-light">
+        <p class="display-3 fw-bold text-center border-bottom pb-1 border-primary border-bottom-4">Клавиатури</p>
+        <!--Content-->
+        <div class="container-xll border d-flex" >
+            <!--Филтри-->
+            <div class="container-sm border bg-light ms-3 mt-3" style="max-width: 200px; width: 200px;">
+              <div class="filter-box">
+              
+            </div>
+                <h3 class="mt-3">Цена</h3>
+                <div class="input-group mb-3 d-block shadow-lg">
+                    <div class="input-group-text bg-transparent border-0">
+                        <input class="form-check-input mt-0 filter filter" type="radio" data-filter="all" checked="true" name="filter">
+                        <p class="pt-3" > &nbspВсички</p>
+                    </div>
+                    <div class="input-group-text bg-transparent border-0 " >
+                      <input class="form-check-input mt-0 filter filter" data-filter="price-100-199" type="radio" name="filter">
+                      <p class="pt-3" > &nbsp100 - 199лв.</p>
+                    </div>
+                    <div class="input-group-text bg-transparent border-0 ">
+                        <input class="form-check-input mt-0 filter filter" data-filter="price-200-299" type="radio" name="filter">
+                        <p class="pt-3"> &nbsp200 - 299лв.</p>
+                    </div>
+                    <div class="input-group-text bg-transparent border-0 ">
+                        <input class="form-check-input mt-0 filter filter" data-filter="price-300-399" type="radio" name="filter">
+                        <p class="pt-3"> &nbsp300 - 399лв.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Процесори първа страница-->
+            <div class="container-xll mx-md-2 mx-lg-5 my-3 shadow-lg " >
+              <div class="row justify-content-center text-center mx-0">
+
+              <!--ASUS Dual Razer BlackWidow V3 Tenkeyless, US Layout-->
+              <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-6 col-xxl-4 pb-sm-3 px-0 pb-3 store-product price-100-199" id="product">
+                <div class="card" style="width: auto;height: auto">
+                  <span class="badge badge-secondary h1 bg-success" style="width: 80px;">Налично</span>
+                    <img src="/img/Top Products/Razer_BlackWidow_V3.png"class="card-img-top" alt="FirstPC">
+                  <div class="card-body">
+                    <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="/Peripherials/Keyboard/Razer_TK.html">Razer BlackWidow V3 Tenkeyless, US Layout</a></h5>
+                  </div>
+                  <ul class="list-group list-group-flush fw-bold">
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> Razer Green механичен суитч</li>
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> Razer Chroma RGB</li>
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> формен фактор Tenkeyless</li>
+                  </ul>
+                  <div class="card-body d-flex justify-content-center ">
+                    <span>
+                      <h3 href="/Components/GPU/rtx-3050.html" class="card-link text-danger fw-bold">179лв.</h3>
+                        <div class="d-flex">
+                        </div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              
+              <!--Logitech G Pro-->
+              <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-6 col-xxl-4 pb-sm-3 px-0 pb-3 store-product price-200-299" id="product">
+                <div class="card" style="width: auto; height: auto;">
+                  <span class="badge badge-secondary h1 bg-success" style="width: 80px;">Налично</span>
+                    <img src="/img/Top Products/Logitech_GPro_Keyboard.jpg" class="card-img-top" alt="FirstPC">
+                  <div class="card-body">
+                    <h5 class="card-title text-truncate"style="min-width: 100px;"><a href="/Peripherials/Keyboard/Logitech_Gpro.html">Logitech G Pro</a></h5>
+                  </div>
+                  <ul class="list-group list-group-flush fw-bold">
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> механична геймърска клавиатура</li>
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> GX Blue Clicky суичове</li>
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> 26-Key Rollover</li>
+                  </ul>
+                  <div class="card-body d-flex justify-content-center ">
+                    <span>
+                      <h3 href="" class="card-link text-danger fw-bold">209лв.</h3>
+                        <div class="d-flex">
+                    </div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              
+              <!--Razer BlackWidow V3, Green Mechanical Switch-->
+              <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-6 col-xxl-4 pb-sm-3 px-0 pb-3 store-product price-100-199" id="product">
+                <div class="card" style="width: auto;height: auto;">
+                  <span class="badge badge-secondary h1 bg-success" style="width: 80px;">Налично</span>
+                    <img src="/img/Keyboard/razer_v3.png" class="card-img-top" alt="FirstPC">
+                  <div class="card-body">
+                    <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="/Peripherials/Keyboard/Razer_Full.html">Razer BlackWidow V3, Green Mechanical Switch</a></h5>
+                  </div>
+                  <ul class="list-group list-group-flush fw-bold">
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> Razer™ Green суичове</li>
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> Razer Synapse 3</li>
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> N-key roll-over</li>
+                  </ul>
+                  <div class="card-body d-flex justify-content-center ">
+                    <span>
+                      <h3 href="#" class="card-link text-danger fw-bold">179лв.</h3>
+                        <div class="d-flex">
+                    </div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!--MSI Corsair K60 RGB PRO CHERRY VIOLA Black-->
+              <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-6 col-xxl-4 pb-sm-3 px-0 pb-3 store-product price-200-299" id="product">
+                <div class="card" style="width: auto;height: auto;">
+                  <span class="badge badge-secondary h1 bg-danger" style="width: 80px;">Не налично</span>
+                    <img src="/img/Keyboard/CH910D019NA.png" class="card-img-top" alt="FirstPC">
+                  <div class="card-body">
+                    <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="/Peripherials/Keyboard/Corsair_K60.html">Corsair K60 RGB PRO CHERRY VIOLA Black</a></h5>
+                  </div>
+                  <ul class="list-group list-group-flush fw-bold fw-bold">
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> механична клавиатура</li>
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> USB 3.0 интерфейс</li>
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> N-Key rollover</li>
+                  </ul>
+                  <div class="card-body d-flex justify-content-center ">
+                    <span>
+                      <h3 href="#" class="card-link text-danger fw-bold">219лв.</h3>
+                        <div class="d-flex">
+                    </div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!--ASUS ROG Strix Scope RX TKL Wireless Deluxe-->
+              <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-6 col-xxl-4 pb-sm-3 px-0 pb-3 store-product price-300-399" id="product">
+                <div class="card" style="width: auto;height: auto;">
+                  <span class="badge badge-secondary h1 bg-danger" style="width: 80px;">Не налично</span>
+                    <img src="/img/Keyboard/90MP02J0BKUA01.png" class="card-img-top" alt="FirstPC">
+                  <div class="card-body">
+                    <h5 class="card-title text-truncate" style="min-width: 100px;"><a href="/Peripherials/Keyboard/Asus_Strix.html">ASUS ROG Strix Scope RX TKL Wireless Deluxe</a></h5>
+                  </div>
+                  <ul class="list-group list-group-flush fw-bold">
+                    <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> геймърска клавиатура</li>
+                    <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> Bluetooth® /2.4 GHz RF</li>
+                    <li class="list-group-item text-truncate"style="min-width: 100px;"><i class="bi bi-check-lg"></i> механични превключватели ROG RX</li>
+                  </ul>
+                  <div class="card-body d-flex justify-content-center ">
+                    <span>
+                      <h3 href="#" class="card-link text-danger fw-bold">339лв.</h3>
+                        <div class="d-flex">
+                    </div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+        
+              <!--АSUS ROG Strix Scope NX TKL Deluxe-->
+              <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-6 col-xxl-4 pb-sm-3 px-0 pb-3 store-product price-300-399" id="product">
+                <div class="card" style="width: auto;height: auto;">
+                  <span class="badge badge-secondary h1 bg-danger" style="width: 80px;">Не налично</span>
+                    <img src="/img/Keyboard/90MP00N6BKUA00.png" class="card-img-top" alt="FirstPC">
+                  <div class="card-body">
+                    <h5 class="card-title text-truncate"style="min-width: 100px;"><a href="/Peripherials/Keyboard/Asus_Scope.html">АSUS ROG Strix Scope NX TKL Deluxe</a></h5>
+                  </div>
+                  <ul class="list-group list-group-flush fw-bold">
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> за FPS геймъри</li>
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> механичен суич ROG NX Red</li>
+                    <li class="list-group-item text-truncate" style="min-width: 100px;"><i class="bi bi-check-lg"></i> алуминиева горна плоча</li>
+                  </ul>
+                  <div class="card-body d-flex justify-content-center">
+                    <span>
+                      <h3 href="#" class="card-link text-danger fw-bold">319лв.</h3>
+                        <div class="d-flex">
+                    </div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer начало-->
+<section>
+  <div class="container-fluid bg-white py-5 px-sm-3 px-md-5 fw-bold" style="margin-top: 90px;">
+    <div class="row pt-5">
+      <!--Информация footer-->
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-uppercase  mb-4">Местоположение</h4>
+            <p class="mb-2"><i class="bi bi-pin-map"></i> бул. „Джеймс Баучер“ 82 , София</p>
+            <p class="mb-2"><i class="bi bi-telephone-fill"></i> +359 989 8848</p>
+            <p><i class="bi bi-envelope"></i> VSG_Computers@vsg.contact.com</p>
+            <h6 class="text-uppercase text-white py-2"></h6>
+            <div class="d-flex justify-content-start">
+                <button class="btn btn-lg btn-outline-dark btn-lg-square me-2" href="#"><i class="bi bi-twitter"></i></button>
+                <button class="btn btn-lg btn-outline-dark btn-lg-square me-2" href="#"><i class="bi bi-facebook"></i></button>
+                <button class="btn btn-lg btn-outline-dark btn-lg-square me-2" href="#"><i class="bi bi-linkedin"></i></button>
+                <button class="btn btn-lg btn-outline-dark btn-lg-square" href="#"><i class="bi bi-instagram"></i></button>
+            </div>
+        </div>
+        <!--Компоненти footer-->
+        <div class="col-lg-3 col-md-6 mb-5 ">
+            <h4 class="text-uppercase mb-4">Компоненти</h4>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-body mb-2" href="/Components/Processors.html"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i> Процесори</a>
+                <a class="text-body mb-2" href="/Components/GPU.html"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i>Видео карти</a>
+                <a class="text-body mb-2" href="/Components/RAM.html"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i>RAM памети</a>
+                <a class="text-body mb-2" href="/Components/MotherBoard.html"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i>Дънни платки</a>
+                <a class="text-body mb-2" href="/Components/SSD.html"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i>SSD дискове</a>
+                <a class="text-body mb-2" href="/Components/HDD.html"><i class="fa fa-angle-right text-white ms-md-4 ms-xl-0"></i>HDD дискове</a>
+            </div>
+        </div>
+        <!--Периферия footer-->
+        <div class="col-lg-3 col-md-6 mb-5">
+          <h4 class="text-uppercase  mb-4">Периферия</h4>
+          <div class="d-flex flex-column justify-content-start">
+              <a class="text-body mb-2" href="/Peripherials/Keyboard.html"><i class="fa fa-angle-right text-white mr-2"></i>Клавиатури</a>
+              <a class="text-body mb-2" href="/Peripherials/Mouse.html"><i class="fa fa-angle-right text-white mr-2"></i>Мишки</a>
+              <a class="text-body mb-2" href="/Peripherials/Headset.html"><i class="fa fa-angle-right text-white mr-2"></i>Слушалки</a>
+              <a class="text-body mb-2" href="/Peripherials/Monitors.html"><i class="fa fa-angle-right text-white mr-2"></i>Монитори</a>
+          </div>
+        </div>
+        <!--Аксесоари footer-->
+        <div class="col-lg-3 col-md-6 mb-5">
+        <h4 class="text-uppercase  mb-4">Аксесоари</h4>
+        <div class="d-flex flex-column justify-content-start">
+            <a class="text-body mb-2" href="/Accessories/Accessories.html"><i class="fa fa-angle-right text-white mr-2"></i>Аксесоари</a>
+        </div>
+        <h4 class="text-uppercase  my-4">Компютри</h4>
+        <div class="d-flex flex-column justify-content-start">
+            <a class="text-body mb-2" href="/PC/PC.html"><i class="fa fa-angle-right text-white mr-2"></i>Компютри</a>
+        </div>
+        </div>
+        <!-- Промоции footer трябва да се добави бутона както Search-->
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-uppercase  mb-4">Абонирай се за промоции</h4>
+            
+            <div class="mb-3" style="min-width: 400px;">
+                <div class="input-group">
+                    <input type="text" class="form-control  border-dark" placeholder="Твоят имейл">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary text-uppercase px-3">Абонирай се</button>
+                    </div>
+                </div>
+            </div>
+            <i></i>
+        </div>
+    </div>
+  </div>
+</section>
+<!--footer край-->
+  
+<!--Създател и Copyright-->
+<div class="container-fluid text-center bg-dark ">
+    <h6 class="text-light">Създадено от Виктор Георгиев 12Е</h6>
+    <i class="fw-bold text-light">© 2022-2023</i>
+</div>
+
+<script type="module" src="/DataBase/searchData_Product_Page.js" ></script>
+<script defer src="/search_product_page.js" type="module"></script>
+<script src="../index.js"></script>
+<script src="../cart.js"></script>
+<script src="../main.js"></script>
+<script src="../filter.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.2.js" integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html> 

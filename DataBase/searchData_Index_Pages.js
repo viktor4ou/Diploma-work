@@ -327,4 +327,40 @@ export let  shopItemsData = [
     img: "../../img/HDD/4tb_7200rpm_hitachi_ultrastar_7k6.jpg",
     url: "../../Components/HDD/4TB_7200V.html",
   },
+  {
+    id: "razer1",
+    name: "Razer BlackWidow V3 Tenkeyless, US Layout",
+    img: "../../img/Top Products/Razer_BlackWidow_V3.png",
+    url: "../../Peripherials/Keyboard/Razer_TK.html",
+  },
+  {
+    id: "razer2",
+    name: "Logitech G Pro",
+    img: "../../img/Top Products/Logitech_GPro_Keyboard.jpg",
+    url: "../../Peripherials/Keyboard/Logitech_Gpro.html",
+  },
+  {
+    id: "gpro",
+    name: "Razer BlackWidow V3, Green Mechanical Switch",
+    img: "../../img/Keyboard/razer_v3.png",
+    url: "../../Peripherials/Keyboard/Razer_Full.html",
+  },
+  {
+    id: "corsair1",
+    name: "Corsair K60 RGB PRO CHERRY VIOLA Black",
+    img: "../../img/Keyboard/CH910D019NA.png",
+    url: "../Peripherials/Keyboard/Corsair_K60.html",
+  },
+  {
+    id: "asus1",
+    name: "ASUS ROG Strix Scope RX TKL Wireless Deluxe",
+    img: "../../img/Keyboard/90MP02J0BKUA01.png",
+    url: "../Peripherials/Keyboard/Asus_Strix.html",
+  },
+  {
+    id: "asus2",
+    name: "АSUS ROG Strix Scope NX TKL Deluxe",
+    img: "../../img/Keyboard/90MP00N6BKUA00.png",
+    url: "../Peripherials/Keyboard/Asus_Scope.html",
+  },
 ];

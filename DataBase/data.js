@@ -291,4 +291,32 @@ let shopItemsData = [
     desc3:`<i class="bi bi-check-lg"></i> SATA 6Gb/s`,
     img: "../../img/HDD/2tb_5400_rpm_western_digital_red_plus_nas.png",
   },
+  //keyboard
+  {
+    id: "razer1",
+    name: "Razer BlackWidow V3 Tenkeyless, US Layout",
+    price: 179,
+    desc1:`<i class="bi bi-check-lg"></i> Razer Green механичен суитч`,
+    desc2:`<i class="bi bi-check-lg"></i> Razer Chroma RGB`,
+    desc3:`<i class="bi bi-check-lg"></i> формен фактор Tenkeyless`,
+    img: "../../img/Top Products/Razer_BlackWidow_V3.png",
+  },
+  {
+    id: "razer2",
+    name: "Logitech G Pro",
+    price: 209,
+    desc1:`<i class="bi bi-check-lg"></i> механична геймърска клавиатура`,
+    desc2:`<i class="bi bi-check-lg"></i> GX Blue Clicky суичове`,
+    desc3:`<i class="bi bi-check-lg"></i> 26-Key Rollover`,
+    img: "../../img/Top Products/Logitech_GPro_Keyboard.jpg",
+  },
+  {
+    id: "gpro",
+    name: "Razer BlackWidow V3, Green Mechanical Switch",
+    price: 179,
+    desc1:`<i class="bi bi-check-lg"></i> Razer™ Green суичове`,
+    desc2:`<i class="bi bi-check-lg"></i> Razer Synapse 3`,
+    desc3:`<i class="bi bi-check-lg"></i> N-key roll-over`,
+    img: "../../img/Keyboard/razer_v3.png",
+  },
 ];
