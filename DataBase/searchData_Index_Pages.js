@@ -290,4 +290,41 @@ export let  shopItemsData = [
     img: "../../img/SSD/2tb_wd_blue_sata.jpg",
     url: "../../Components/SSD/WD-2tb.html",
   },
+  //HDD
+  {
+    id: "TB5400",
+    name: "1TB 5400rpm Western Digital Purple Surveillance",
+    img: "../../img/HDD/1tb_5400rpm_western_digital_purple_surveillance.png",
+    url: "../../Components/HDD/1TB_5400.html",
+  },
+  {
+    id: "TB5900",
+    name: "1TB 5900rpm Seagate IronWolf NAS",
+    img: "../../img/HDD/1tb_5900rpm_seagate_ironwolf_nas.jpg",
+    url: "../../Components/HDD/1TB_5900.html",
+  },
+  {
+    id: "TB2",
+    name: "2TB 5400 rpm Western Digital Red Plus NAS",
+    img: "../../img/HDD/2tb_5400_rpm_western_digital_red_plus_nas.png",
+    url: "../../Components/HDD/2TB_5400.html",
+  },
+  {
+    id: "TB432",
+    name: "2TB 7200rpm Western Digital Black",
+    img: "../../img/HDD/2tb_7200_rpm_western_digital_black.png",
+    url: "../../Components/HDD/2TB_7200.html",
+  },
+  {
+    id: "TB59001",
+    name: "4TB 7200rpm Western Digital Gold",
+    img: "../../img/HDD/4tb_7200rpm_western_digital_gold.jpg",
+    url: "../../Components/HDD/4TB_7200.html",
+  },
+  {
+    id: "TB23",
+    name: "4TB 7200rpm Western Digital Ultrastar 7К6",
+    img: "../../img/HDD/4tb_7200rpm_hitachi_ultrastar_7k6.jpg",
+    url: "../../Components/HDD/4TB_7200V.html",
+  },
 ];

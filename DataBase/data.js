@@ -263,5 +263,32 @@ let shopItemsData = [
     desc3:`<i class="bi bi-check-lg"></i> 2600 MB/s писане`,
     img: "../../img/SSD/500gb_samsung_ssd_980_pcie_30.jpg",
   },
-  
+  //HDD
+  {
+    id: "TB5400",
+    name: "1TB 5400rpm Western Digital Purple Surveillance",
+    price: 109,
+    desc1:`<i class="bi bi-check-lg"></i> 1TB`,
+    desc2:`<i class="bi bi-check-lg"></i> 3.5 инча`,
+    desc3:`<i class="bi bi-check-lg"></i> SATA 6Gb/s`,
+    img: "../../img/HDD/1tb_5400rpm_western_digital_purple_surveillance.png",
+  },
+  {
+    id: "TB5900",
+    name: "1TB 5900rpm Seagate IronWolf NAS",
+    price: 119,
+    desc1:`<i class="bi bi-check-lg"></i> 1TB`,
+    desc2:`<i class="bi bi-check-lg"></i> 3.5 инча`,
+    desc3:`<i class="bi bi-check-lg"></i> SATA 6Gb/s`,
+    img: "../../img/HDD/1tb_5900rpm_seagate_ironwolf_nas.jpg",
+  },
+  {
+    id: "TB2",
+    name: "2TB 5400 rpm Western Digital Red Plus NAS",
+    price: 201,
+    desc1:`<i class="bi bi-check-lg"></i> 2TB`,
+    desc2:`<i class="bi bi-check-lg"></i> 3.5 инча`,
+    desc3:`<i class="bi bi-check-lg"></i> SATA 6Gb/s`,
+    img: "../../img/HDD/2tb_5400_rpm_western_digital_red_plus_nas.png",
+  },
 ];
