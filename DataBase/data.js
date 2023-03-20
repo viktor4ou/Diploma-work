@@ -347,4 +347,32 @@ let shopItemsData = [
     desc3:`<i class="bi bi-check-lg"></i> 4 различни настройки за осветлението`,
     img: "../../img/Mouse/acer.png",
   },
+  //headset
+  {
+    id: "Cougar",
+    name: "Cougar VM410",
+    price: 119,
+    desc1:`<i class="bi bi-check-lg"></i> 53-милиметрови драйвери`,
+    desc2:`<i class="bi bi-check-lg"></i> 9.7 мм микрофон с потискане на шума`,
+    desc3:`<i class="bi bi-check-lg"></i> контрол на звука`,
+    img: "../../img/Headset/Cougar.png",
+  },
+  {
+    id: "gigabyte",
+    name: "Gigabyte Aorus H1 RGB Fusion",
+    price: 115,
+    desc1:`<i class="bi bi-check-lg"></i> 7.1 виртуален звук`,
+    desc2:`<i class="bi bi-check-lg"></i> 50 мм драйвери`,
+    desc3:`<i class="bi bi-check-lg"></i> RGB осветление`,
+    img: "../../img/Headset/Gigabyte.jpg",
+  },
+  {
+    id: "gprowireless",
+    name: "Logitech PRO X WIRELESS LIGHTSPEED",
+    price: 399,
+    desc1:`<i class="bi bi-check-lg"></i> Desktop.BG Препоръчва`,
+    desc2:`<i class="bi bi-check-lg"></i> LIGHTSPEED безжични Surround слушалки с 50мм. PRO-G говорите`,
+    desc3:`<i class="bi bi-check-lg"></i> DTX HEADPHONE:X 2.0 - виртуален съраунд`,
+    img: "../../img/Top Products/Logitech_GPro_Headset.jpg",
+  },
 ];

@@ -397,5 +397,42 @@ export let  shopItemsData = [
       img: "../../img/Mouse/SteelSeries.jpg",
       url: "../Peripherials/Mouse/SteelSeries.html",
     },
+    {
+      id: "Cougar",
+      name: "Cougar VM410",
+      img: "../../img/Headset/Cougar.png",
+      url: "../Peripherials/Headset/Cougar.html",
+    },
+    {
+      id: "gigabyte",
+      name: "Gigabyte Aorus H1 RGB Fusion",
+      img: "../../img/Headset/Gigabyte.jpg",
+      url: "../Peripherials/Headset/Gigabyte.html",
+    },
+    {
+      id: "gprowireless",
+      name: "Logitech PRO X WIRELESS LIGHTSPEED",
+      img: "../../img/Top Products/Logitech_GPro_Headset.jpg",
+      url: "../Peripherials/Headset/Gpro.html",
+    },
+  
+    {
+      id: "asus",
+      name: "ASUS ROG Delta Hi-Res ESS Quad-DAC, Aura Sync",
+      img: "../../img/Headset/Asus.png",
+      url: "../Peripherials/Headset/Asus.html",
+    },
+    {
+      id: "razer",
+      name: "Razer Barracuda X (2022) - Mercury",
+      img: "../../img/Headset/Razer.png",
+      url: "../Peripherials/Headset/Razer.html",
+    },
+    {
+      id: "stellserieska",
+      name: "SteelSeries Arctis 7+, Destiny 2 Edition",
+      img: "../../img/Headset/SteelSeries.jpg",
+      url: "../Peripherials/Headset/SteelSeries.html",
+    },
   ];
 
