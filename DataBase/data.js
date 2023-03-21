@@ -375,4 +375,32 @@ let shopItemsData = [
     desc3:`<i class="bi bi-check-lg"></i> DTX HEADPHONE:X 2.0 - виртуален съраунд`,
     img: "../../img/Top Products/Logitech_GPro_Headset.jpg",
   },
+  //Monitor
+  {
+    id: "philips",
+    name: "Philips 223V5LSB",
+    price: 171,
+    desc1:`<i class="bi bi-check-lg"></i> 22" TN`,
+    desc2:`<i class="bi bi-check-lg"></i> 1920x1080 Full HD`,
+    desc3:`<i class="bi bi-check-lg"></i> VGA`,
+    img: "../../img/Monitor/Philips.jpg",
+  },
+  {
+    id: "g3",
+    name: "Samsung Odyssey G3 24G30A",
+    price: 669,
+    desc1:`<i class="bi bi-check-lg"></i> 32" VA`,
+    desc2:`<i class="bi bi-check-lg"></i> 165Hz`,
+    desc3:`<i class="bi bi-check-lg"></i> 1920x1080 Full HD`,
+    img: "../../img/Top Products/Samsung_32g3.png",
+  },
+  {
+    id: "g5",
+    name: "Samsung Odyssey G5 LC34G55T",
+    price: 699,
+    desc1:`<i class="bi bi-check-lg"></i> 32" VA`,
+    desc2:`<i class="bi bi-check-lg"></i> 144hz`,
+    desc3:`<i class="bi bi-check-lg"></i> 2560x1440 WQHD`,
+    img: "../../img/Top Products/Samsung_32g5.png",
+  },
 ];

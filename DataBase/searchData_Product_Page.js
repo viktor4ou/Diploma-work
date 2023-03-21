@@ -434,5 +434,42 @@ export let  shopItemsData = [
       img: "../../img/Headset/SteelSeries.jpg",
       url: "../Peripherials/Headset/SteelSeries.html",
     },
+    //monitor
+    {
+      id: "philips",
+      name: "Philips 223V5LSB",
+      img: "../../img/Monitor/Philips.jpg",
+      url: "../Peripherials/Monitor/Philips.html",
+    },
+    {
+      id: "g3",
+      name: "Samsung Odyssey G3 24G30A",
+      img: "../../img/Top Products/Samsung_32g3.png",
+      url: "../Peripherials/Monitor/G3.html",
+    },
+    {
+      id: "g5",
+      name: "Samsung Odyssey G5 LC34G55T",
+      img: "../../img/Top Products/Samsung_32g5.png",
+      url: "../Peripherials/Monitor/G5.html",
+    },
+    {
+      id: "aoc",
+      name: "AOC 24B2XDM",
+      img: "../../img/Monitor/Aoc.jpg",
+      url: "../Peripherials/Monitor/Aoc.html", 
+    },
+    {
+      id: "dellche",
+      name: "Dell SE2422H",
+      img: "../../img/Monitor/Dell.jpeg",
+      url: "../Peripherials/Monitor/Dell.html",
+    },
+    {
+      id: "lenovo",
+      name: "Lenovo L22e-30",
+      img: "../../img/Monitor/Lenovo.png",
+      url: "../Peripherials/Monitor/Lenovo.html",
+    },
   ];
 
