@@ -403,4 +403,32 @@ let shopItemsData = [
     desc3:`<i class="bi bi-check-lg"></i> 2560x1440 WQHD`,
     img: "../../img/Top Products/Samsung_32g5.png",
   },
+  //accessories
+  {
+    id: "Hamata",
+    name: "Hama калъф за външен диск",
+    price: 10,
+    desc1:`<i class="bi bi-check-lg"></i> за 2.5-инчов диск`,
+    desc2:`<i class="bi bi-check-lg"></i> неопренов материал`,
+    desc3:`<i class="bi bi-check-lg"></i> с ремък`,
+    img: "../../img/Accessories/Hama.jpg",
+  },
+  {
+    id: "Cougarche",
+    name: "Cougar Core Box V3",
+    price: 29,
+    desc1:`<i class="bi bi-check-lg"></i> управление на до 6 вентилатора`,
+    desc2:`<i class="bi bi-check-lg"></i> 6x PWM control`,
+    desc3:`<i class="bi bi-check-lg"></i> 6x ARGB lighting sync`,
+    img: "../../img/Accessories/Cougar.png",
+  },
+  {
+    id: "Orico",
+    name: "Orico AL01-10-WH 1м",
+    price: 39,
+    desc1:`<i class="bi bi-check-lg"></i> Thunderbolt 3 USB кабел`,
+    desc2:`<i class="bi bi-check-lg"></i> Скорост на трансфер: до 40 Gbps`,
+    desc3:`<i class="bi bi-check-lg"></i> Макс. резолюция на видео предаване: 8KHD`,
+    img: "../../img/Accessories/Orico.jpg",
+  },
 ];
