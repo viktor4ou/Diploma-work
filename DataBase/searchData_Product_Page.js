@@ -471,5 +471,79 @@ export let  shopItemsData = [
       img: "../../img/Monitor/Lenovo.png",
       url: "../Peripherials/Monitor/Lenovo.html",
     },
+    //accessories
+  {
+    id: "Hamata",
+    name: "Hama калъф за външен диск",
+    img: "../../img/Accessories/Hama.jpg",
+    url: "../Accessories/Accessories/Hama.html",
+  },
+  {
+    id: "Cougarche",
+    name: "Cougar Core Box V3",
+    img: "../../img/Accessories/Cougar.png",
+    url: "../Accessories/Accessories/Cougar.html",
+  },
+  {
+    id: "Orico",
+    name: "Orico AL01-10-WH 1м",
+    img: "../../img/Accessories/Orico.jpg",
+    url: "../Accessories/Accessories/Orico.html",
+  },
+  {
+    id: "eset",
+    name: "ESET Smart Security Premium",
+    img: "../../img/Accessories/ESET.png",
+    url: "../Accessories/Accessories/ESET.html",
+  },
+  {
+    id: "marvoto",
+    name: "Marvo GT-90",
+    img: "../../img/Accessories/Marvo.jpg",
+    url: "../Accessories/Accessories/Marvo.html",
+  },
+  {
+    id: "windows",
+    name: "Microsoft Windows Home 11 OEM English 64-битов",
+    img: "../../img/Accessories/Windows.jpg",
+    url: "../Accessories/Accessories/Windows.html",
+  },
+  //PC
+  {
+    id: "Libra",
+    name: "G:RIGS > Libra White (Intel)",
+    img: "../../img/Top Products/First_PC.jpg",
+    url: "../PC/PC/Libra.html",
+  },
+  {
+    id: "Twister",
+    name: "G:RIGS > Twister Black (AMD)",
+    img: "../../img/Top Products/Second_PC.jpg",
+    url: "../PC/PC/Twister.html",
+  },
+  {
+    id: "Gemini",
+    name: "G:RIGS > Gemini М (AMD)",
+    img: "../../img/PC/Gemini.jpg",
+    url: "../PC/PC/Gemini.html",
+  },
+  {
+    id: "Prometheus",
+    name: "G:RIGS > Prometheus (Intel)",
+    img: "../../img/PC/Prometheus.jpg",
+    url: "../PC/PC/Prometheus.html",
+  },
+  {
+    id: "Recon",
+    name: "G:RIGS > Force Recon (AMD)",
+    img: "../../img/PC/Recon.jpg",
+    url: "../PC/PC/Recon.html",
+  },
+  {
+    id: "Conqueror",
+    name: "G:RIGS > Conqueror (Intel) 5Ghz OC Edition",
+    img: "../../img/PC/Congueror.jpg",
+    url: "../PC/PC/Conqueror.html",
+  },
   ];
 

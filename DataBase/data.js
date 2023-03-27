@@ -431,4 +431,32 @@ let shopItemsData = [
     desc3:`<i class="bi bi-check-lg"></i> Макс. резолюция на видео предаване: 8KHD`,
     img: "../../img/Accessories/Orico.jpg",
   },
+  //PC
+  {
+    id: "Libra",
+    name: "G:RIGS > Libra White (Intel)",
+    price: 1599,
+    desc1:`<i class="bi bi-cpu"></i> Intel Core i5-11400F`,
+    desc2:`<i class="bi bi-gpu-card"></i> GeForce GTX 1650`,
+    desc3:`<i class="bi bi-memory"></i> 16GB DDR4`,
+    img: "../../img/Top Products/First_PC.jpg",
+  },
+  {
+    id: "Twister",
+    name: "G:RIGS > Twister Black (AMD)",
+    price: 1879,
+    desc1:`<i class="bi bi-cpu"></i> AMD Ryzen 5 5600`,
+    desc2:`<i class="bi bi-gpu-card"></i> GeForce RTX 3060 Ti`,
+    desc3:`<i class="bi bi-memory"></i> 16GB DDR4`,
+    img: "../../img/Top Products/Second_PC.jpg",
+  },
+  {
+    id: "Gemini",
+    name: "G:RIGS > Gemini М (AMD)",
+    price: 1399,
+    desc1:`<i class="bi bi-cpu"></i> AMD Ryzen 5 5500`,
+    desc2:`<i class="bi bi-gpu-card"></i> GeForce RTX 3060`,
+    desc3:`<i class="bi bi-memory"></i> 16GB DDR4`,
+    img: "../../img/PC/Gemini.jpg",
+  },
 ];

@@ -90,7 +90,6 @@ let generateShop = () => {
         <li class="list-group-item text-truncate"style="min-width: 100px;">${desc1}</li>
         <li class="list-group-item text-truncate"style="min-width: 100px;">${desc2}</li>
         <li class="list-group-item text-truncate"style="min-width: 100px;">${desc3}</li>
-        <li class="list-group-item text-truncate link-primary"  style="min-width: 100px;"><a href="#properties">пълни характеристики <i class="bi bi-arrow-down "></i></a></li>
       </ul>
     </div>
   </div>  

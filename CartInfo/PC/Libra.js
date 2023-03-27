@@ -14,7 +14,7 @@ let basket = JSON.parse(localStorage.getItem("app")) || [];
  */
 
 let generateShop = () => {
-  return (shop.innerHTML = shopItemsData.filter((x) => x.id === "Cougarche")
+  return (shop.innerHTML = shopItemsData.filter((x) => x.id === "Libra")
     .map((x) => {
       let { id, name, desc1, desc2, desc3, img, price } = x;
       let search = basket.find((y) => y.id === id) || [];
@@ -90,6 +90,7 @@ let generateShop = () => {
         <li class="list-group-item text-truncate"style="min-width: 100px;">${desc1}</li>
         <li class="list-group-item text-truncate"style="min-width: 100px;">${desc2}</li>
         <li class="list-group-item text-truncate"style="min-width: 100px;">${desc3}</li>
+        <li class="list-group-item text-truncate link-primary"  style="min-width: 100px;"><a href="#properties">пълни характеристики <i class="bi bi-arrow-down "></i></a></li>
       </ul>
     </div>
   </div>  
