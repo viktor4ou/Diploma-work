@@ -91,12 +91,38 @@
   </div>
 </nav>
 <!-- Приключва Navbar -->
+<!-- Информация за Toast-->
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="/img/icon.jpg" class="rounded me-2" alt="...">
+    <strong class="me-auto">VSG computers</strong>
+    <small>сега</small>
+    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+  <div class="toast-body">
+    Поръчката Ви е приета!
+  </div>
+  </div>
+  </div>
 
 <!-- Започва количка-->
 <section class="p-3 mt-5">
   <div class="container-fluid bg-light" style="min-height: 900px;">
     <div id="label" class="text-center"></div>
-  
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="..." class="rounded me-2" alt="...">
+          <strong class="me-auto">Bootstrap</strong>
+          <small>11 mins ago</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Hello, world! This is a toast message.
+        </div>
+      </div>
+    </div>
     <div class="shopping-cart" id="shopping-cart"></div>
   </div>
 </section>

@@ -74,6 +74,7 @@ let generateCartItems = () => {
 generateCartItems();
 
 
+
 //Когато се натисне бутона '+' да се увеличи количеството на продукта
 let increment = (id) => {
   let selectedItem = id;
@@ -143,7 +144,9 @@ let TotalAmount = () => {
     
     return (label.innerHTML = `
     <h2 class="fw-bold pt-3">Общo ${amount}лв.</h2>
-    <div class="btn btn-primary">Поръчай</div>
+    <button type="button" class="btn btn-primary" onclick="clearCart()" id="liveToastBtn">Поръчай</button>
+
+
     <button onclick="clearCart()" class="btn btn-danger">Премахни всичко</button>
     `);
   } else return;
@@ -159,3 +162,15 @@ let clearCart = () => {
   calculation();
   localStorage.setItem("app", JSON.stringify(basket));
 };
+
+//когато се натисне бутона 'Поръчай' да се покаже че поръчката е приета
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastLiveExample)
+    
+    toast.show()
+    clearCart();
+  })
+}
