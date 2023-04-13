@@ -6,7 +6,7 @@ let label = document.getElementById("label");
 //Създаваме си масив в който ще се съхраняват всички продукти
 let basket = JSON.parse(localStorage.getItem("app")) || [];
 
-//Общатото количесто на продуктите в количката и да се покажат ако badge
+//Общото количесто на продуктите в количката и да се покажат ако badge
 let calculation = () => {
   let cartIcon = document.getElementById("cartAmount");
   cartIcon.innerHTML = basket.map((x) => x.item).reduce((x, y) => x + y, 0);
